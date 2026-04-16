@@ -66,9 +66,14 @@ blocks:
         description: |
           "A Fey Mystery of Glen Dourn is what it promises to be. A creepy adventure on an abandoned house with vines and thorns all over the place… The author managed to write in a really evocative and flavourful manner without being too complex."
 
+  - type: callout
+    variant: warning
+    icon: "hugeicons:alert-02"
+    title: Content warning
+    content: Witches, ghosts, rats, body parts, death.
+
   - type: cta
     title: Pick up A Fey Mystery of Glen Dourn
-    description: "Content warning: witches, ghosts, rats, body parts, death."
     button:
       text: Buy on DM's Guild
       href: https://www.dmsguild.com/product/345735/A-Fey-Mystery-of-Glen-Dourn

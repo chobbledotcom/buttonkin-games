@@ -62,9 +62,14 @@ blocks:
         description: |
           "Perfect for an 'Eberron-esque' setting where magic is everywhere, Red Gold is one of the more intriguing scenarios that I've seen… very easy to pick up and play with very little preparation."
 
+  - type: callout
+    variant: warning
+    icon: "hugeicons:alert-02"
+    title: Content warning
+    content: Environmental disaster.
+
   - type: cta
     title: Pick up Red Gold
-    description: "Content warning: environmental disaster."
     button:
       text: Buy on DM's Guild
       href: https://www.dmsguild.com/product/338797/Red-Gold

@@ -92,16 +92,14 @@ blocks:
         price: "10"
         link: https://buy.stripe.com/9B64gz9CjbcCdUQby07N605
 
-  - type: icon-links
+  - type: downloads
     intro: |
       ## Downloads
     items:
-      - icon: "hugeicons:pdf-02"
-        text: Character Sheet (PDF)
-        url: /files/drama_llamas_character_sheet.pdf
-      - icon: "hugeicons:pdf-02"
-        text: Quick Start / Cheat Sheet (PDF)
-        url: /files/drama_llamas_cheat_sheet.pdf
+      - file: /assets/files/drama_llamas_character_sheet.pdf
+        label: Character Sheet
+      - file: /assets/files/drama_llamas_cheat_sheet.pdf
+        label: Quick Start / Cheat Sheet
 
   - type: iframe-embed
     src: https://itch.io/embed/2094843?link_color=3e0b5d&border_color=ffffff
