@@ -6,6 +6,7 @@ tags:
   - conventions
   - drama-llamas
   - bumbling
+thumbnail: src/images/newsletter/drama_llamas_character_sheet.png
 ---
 
 <p>

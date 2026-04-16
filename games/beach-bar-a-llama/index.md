@@ -5,7 +5,7 @@ order: 7
 system: Drama Llamas
 meta_title: "Beach Bar-a-Llama | A Drama Llamas one-shot for 3-5 players and a Producer"
 meta_description: A postcard-sized one-shot for Drama Llamas. Cutthroat camelid contestants compete to build the hottest beach bar on a newly discovered island in the Medita-llam-ian.
-thumbnail: src/games/beach-bar-a-llama/thumb.png
+thumbnail: src/images/products/drama_llamas_beach_bar_a_llama.jpeg
 blocks:
   - type: hero
     title: Beach Bar-a-Llama
@@ -42,6 +42,27 @@ blocks:
         label: Play time
       - value: "£3"
         label: Print edition
+
+  - type: image-cards
+    header_intro: |-
+      ## Buy Direct
+    header_align: center
+    image_aspect_ratio: "1/1"
+    items:
+      - image: src/images/products/drama_llamas_beach_bar_a_llama.jpeg
+        title: Beach Bar-a-Llama
+        description: "£3 · Postcard one-shot"
+        link: https://buy.stripe.com/14AdR9eWDbcCeYUby07N606
+
+  - type: html
+    content: |
+      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
+        <iframe src="https://itch.io/embed/3022978?link_color=f7c877"
+                width="552" height="167" frameborder="0"
+                title="Beach Bar-a-Llama on Itch.io"
+                loading="lazy"
+                style="width:100%;max-width:552px;"></iframe>
+      </div>
 
   - type: cta
     title: Get Beach Bar-a-Llama

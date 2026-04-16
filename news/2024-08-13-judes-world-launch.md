@@ -4,6 +4,7 @@ subtitle: Don't. Panic.
 metaTitle: "Jude's World Solo Journaling Game Launches on Kickstarter"
 tags:
   - judes-world
+thumbnail: src/images/newsletter/judes_world_ks.png
 ---
 
 <p>

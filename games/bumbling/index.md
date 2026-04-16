@@ -2,10 +2,15 @@
 title: Bumbling
 subtitle: A relaxing map-making and journaling game about dancing bees
 order: 3
+featured: true
 meta_title: "Bumbling | A drawing, journaling, map-making solo TTRPG about bees"
 meta_description: Bumbling is a sweet, relaxing solo TTRPG about a newly hatched worker bee learning to dance, explore, and map the world.
-thumbnail: src/games/bumbling/thumb.png
+thumbnail: src/images/products/bumbling_booklet.jpeg
 header_image: src/games/bumbling/cover.png
+eleventyNavigation:
+  key: Bumbling
+  parent: Releases
+  order: 3
 blocks:
   - type: hero
     title: Bumbling
@@ -55,6 +60,27 @@ blocks:
       - title: Wyrd Science Magazine
         description: |
           "A simple little bee RPG that thankfully doesn't make any references to that b—dy film."
+
+  - type: image-cards
+    header_intro: |-
+      ## Buy Direct
+    header_align: center
+    items:
+      - image: src/images/products/bumbling_booklet.jpeg
+        title: Bumbling
+        description: "£4 · Print edition"
+        link: https://buy.stripe.com/fZueVd01J4Oe2c859C7N601
+    image_aspect_ratio: "1/1"
+
+  - type: html
+    content: |
+      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
+        <iframe src="https://itch.io/embed/886539?link_color=f7c877"
+                width="552" height="167" frameborder="0"
+                title="Bumbling on Itch.io"
+                loading="lazy"
+                style="width:100%;max-width:552px;"></iframe>
+      </div>
 
   - type: cta
     title: Pick up Bumbling today

@@ -4,7 +4,7 @@ subtitle: A coin-toss based RPG to play on a walk
 order: 5
 meta_title: "Righteous Jaunt | A family TTRPG designed to be played while walking"
 meta_description: A mechanics-light, d2 based story game in the action-adventure genre, designed to be played on the move for 2-4 players plus a GM.
-thumbnail: src/games/righteous-jaunt/thumb.png
+thumbnail: src/images/products/righteous_jaunt_booklet.jpeg
 blocks:
   - type: hero
     title: Righteous Jaunt
@@ -42,6 +42,27 @@ blocks:
         label: Age
       - value: £4
         label: Print Edition
+
+  - type: image-cards
+    header_intro: |-
+      ## Buy Direct
+    header_align: center
+    image_aspect_ratio: "1/1"
+    items:
+      - image: src/images/products/righteous_jaunt_booklet.jpeg
+        title: Righteous Jaunt
+        description: "£4 · Print edition"
+        link: https://buy.stripe.com/28EbJ13dVa8ydUQatW7N60a
+
+  - type: html
+    content: |
+      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
+        <iframe src="https://itch.io/embed/1422835?link_color=f7c877"
+                width="552" height="167" frameborder="0"
+                title="Righteous Jaunt on Itch.io"
+                loading="lazy"
+                style="width:100%;max-width:552px;"></iframe>
+      </div>
 
   - type: cta
     title: Get walking

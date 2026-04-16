@@ -29,17 +29,22 @@ blocks:
         variant: secondary
         size: lg
 
-  # Intro
-  - type: section-header
-    intro: |-
-      ## A One-Woman Games Studio from Yvris Burke
+  # Intro — split image with a photo of Yvris
+  - type: split-image
+    title: A One-Woman Games Studio from Yvris Burke
+    content: |
+      Established in 2020 by game designer, writer, and web developer Yvris
+      Burke, Button Kin Games is home to whimsical and strange TTRPGs with
+      unusual themes, and a smattering of D&D 5e content.
 
-      Established in 2020 by game designer, writer, and web developer, Yvris Burke,
-      Button Kin Games is home to whimsical and strange TTRPGs with unusual themes,
-      and a smattering of D&D 5e content.
-
-      Check out the [About](/about/) section to learn more about Yvris, or the
-      [blog](/blog/) to catch up on recent happenings.
+      Check out the [About](/about/) section to learn more about Yvris, or
+      the [blog](/blog/) to catch up on recent happenings.
+    button:
+      text: More about Yvris
+      href: /about/
+      variant: secondary
+    figure_src: images/alex.jpg
+    figure_alt: Yvris Burke at a TTRPG convention
 
   # Featured releases
   - type: snippet

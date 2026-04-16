@@ -7,6 +7,7 @@ tags:
   - drama-llamas
   - the-tillvayle-committee
   - psychic-night-school
+thumbnail: src/images/newsletter/psn_tc_newsletter_preview.png
 ---
 
 <p>

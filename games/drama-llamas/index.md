@@ -5,7 +5,7 @@ order: 2
 featured: true
 meta_title: "Drama Llamas | A chaotic, comedic TTRPG about llamas on reality TV"
 meta_description: Drama Llamas is a narrative-driven TTRPG about reality TV competitions. Easy to plan and easy to play, packed with genre tropes and chaos-generating mechanics.
-thumbnail: src/games/drama-llamas/thumb.png
+thumbnail: src/images/products/drama_llamas.jpeg
 header_image: src/games/drama-llamas/cover.jpg
 eleventyNavigation:
   key: Drama Llamas
@@ -70,6 +70,25 @@ blocks:
       - title: Catalyze
         description: "\"When I played Drama Llamas with my buddies I got the giggles so bad that I couldn't talk. It's really easy to play and leaves a lot of room for improvisation and silliness, although there's a clear structure to gee things along too. Some of the artwork is BEAU-TI-FUL! A++ would recommend!\""
 
+  - type: image-cards
+    header_intro: |-
+      ## Buy Direct
+    header_align: center
+    image_aspect_ratio: "1/1"
+    items:
+      - image: src/images/products/drama_llamas.jpeg
+        title: Drama Llamas
+        description: "£15 · Main rulebook"
+        link: https://buy.stripe.com/5kQ14n15NbcCdUQby07N600
+      - image: src/images/products/drama_llamas_postcard_bundle.jpeg
+        title: Drama Llamas + 3 one-shots
+        description: "£20 · Bundle"
+        link: https://buy.stripe.com/28E9ATcOv94u5okcC47N60d
+      - image: src/images/products/drama_llamas_postcard_bundle.jpeg
+        title: Drama Llamas one-shot bundle
+        description: "£10 · 3 postcard one-shots"
+        link: https://buy.stripe.com/9B64gz9CjbcCdUQby07N605
+
   - type: icon-links
     intro: |
       ## Downloads
@@ -80,6 +99,16 @@ blocks:
       - icon: "hugeicons:pdf-02"
         text: Quick Start / Cheat Sheet (PDF)
         url: /files/drama_llamas_cheat_sheet.pdf
+
+  - type: html
+    content: |
+      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
+        <iframe src="https://itch.io/embed/2094843?link_color=3e0b5d&border_color=ffffff"
+                width="552" height="167" frameborder="0"
+                title="Drama Llamas on Itch.io"
+                loading="lazy"
+                style="width:100%;max-width:552px;"></iframe>
+      </div>
 
   - type: cta
     title: Buy Drama Llamas

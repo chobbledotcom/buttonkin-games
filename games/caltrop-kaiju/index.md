@@ -4,7 +4,7 @@ subtitle: A monstrously fun and fast-paced disaster TTRPG
 order: 4
 meta_title: "Caltrop Kaiju | A monstrously fun and fast-paced disaster TTRPG"
 meta_description: A solo TTRPG that can be played in ten minutes as a tense tactical puzzle, or in a couple of hours as a journaling story game.
-thumbnail: src/games/caltrop-kaiju/thumb.png
+thumbnail: src/images/products/caltrop_kaiju_booklet.jpeg
 header_image: src/games/caltrop-kaiju/cover.png
 blocks:
   - type: hero
@@ -41,6 +41,27 @@ blocks:
         label: Suitability
       - value: £4
         label: Print Edition
+
+  - type: image-cards
+    header_intro: |-
+      ## Buy Direct
+    header_align: center
+    image_aspect_ratio: "1/1"
+    items:
+      - image: src/images/products/caltrop_kaiju_booklet.jpeg
+        title: Caltrop Kaiju
+        description: "£4 · Print edition"
+        link: https://buy.stripe.com/5kQ9AT4hZ0xY4kgfOg7N60c
+
+  - type: html
+    content: |
+      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
+        <iframe src="https://itch.io/embed/1506445?link_color=f7c877"
+                width="552" height="167" frameborder="0"
+                title="Caltrop Kaiju on Itch.io"
+                loading="lazy"
+                style="width:100%;max-width:552px;"></iframe>
+      </div>
 
   - type: cta
     title: Get Caltrop Kaiju

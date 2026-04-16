@@ -7,6 +7,7 @@ tags:
   - bumbling
   - caltrop-kaiju
   - conventions
+thumbnail: src/images/newsletter/bumbling_caltrop_kaihu_newsletter_preview.png
 ---
 
 <p>

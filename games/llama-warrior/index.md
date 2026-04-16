@@ -5,7 +5,7 @@ order: 9
 system: Drama Llamas
 meta_title: "Llama Warrior | A Drama Llamas one-shot for 3-5 players and a Producer"
 meta_description: A postcard-sized one-shot for Drama Llamas. Cutthroat camelid contestants face the mighty Llamanators in fiendish physical challenges.
-thumbnail: src/games/llama-warrior/thumb.png
+thumbnail: src/images/products/drama_llamas_llama_warrior.jpeg
 blocks:
   - type: hero
     title: Llama Warrior
@@ -41,6 +41,27 @@ blocks:
         label: Play time
       - value: "£3"
         label: Print edition
+
+  - type: image-cards
+    header_intro: |-
+      ## Buy Direct
+    header_align: center
+    image_aspect_ratio: "1/1"
+    items:
+      - image: src/images/products/drama_llamas_llama_warrior.jpeg
+        title: Llama Warrior
+        description: "£3 · Postcard one-shot"
+        link: https://buy.stripe.com/28E4gz29R1C2cQMfOg7N608
+
+  - type: html
+    content: |
+      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
+        <iframe src="https://itch.io/embed/3022990?link_color=f7c877"
+                width="552" height="167" frameborder="0"
+                title="Llama Warrior on Itch.io"
+                loading="lazy"
+                style="width:100%;max-width:552px;"></iframe>
+      </div>
 
   - type: cta
     title: Get Llama Warrior

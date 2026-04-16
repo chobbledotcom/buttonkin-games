@@ -5,7 +5,7 @@ order: 1
 featured: true
 meta_title: "Jude's World | A coming-of-age solo TTRPG about love in all its forms"
 meta_description: Jude's World is a solo, tarot-based journaling TTRPG about 12-year-old Jude navigating their parents' divorce and the messiness of growing up.
-thumbnail: src/games/judes-world/thumb.png
+thumbnail: src/images/products/judes_world_zine.jpeg
 header_image: src/games/judes-world/cover.png
 eleventyNavigation:
   key: Jude's World
@@ -66,6 +66,35 @@ blocks:
         label: Age
       - value: £10
         label: Print Edition
+
+  - type: image-cards
+    header_intro: |-
+      ## Buy Direct
+    header_align: center
+    image_aspect_ratio: "1/1"
+    items:
+      - image: src/images/products/judes_world_zine.jpeg
+        title: Jude's World
+        description: "£10 · Zine"
+        link: https://buy.stripe.com/cNi00j6q74OecQM0Tm7N602
+      - image: src/images/products/judes_world_workbook.jpeg
+        title: Jude's World Workbook
+        description: "£5 · Companion workbook"
+        link: https://buy.stripe.com/bJe3cvbKra8y4kg6dG7N603
+      - image: src/images/products/judes_world_bundle.jpeg
+        title: Jude's World Bundle
+        description: "£13 · Zine + workbook"
+        link: https://buy.stripe.com/fZuaEX15N6WmeYU8lO7N604
+
+  - type: html
+    content: |
+      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
+        <iframe src="https://itch.io/embed/3083432?link_color=f7c877"
+                width="552" height="167" frameborder="0"
+                title="Jude's World on Itch.io"
+                loading="lazy"
+                style="width:100%;max-width:552px;"></iframe>
+      </div>
 
   - type: cta
     title: Pick up Jude's World

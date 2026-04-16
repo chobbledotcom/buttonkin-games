@@ -4,7 +4,7 @@ subtitle: Make your own tarot cards! A game about being, or pretending to be, ps
 order: 6
 meta_title: "Psychic Night School | A drawing, divining, creative, GM-less TTRPG about psychics"
 meta_description: A GM-less roleplaying and drawing game for fans of tarot, astrology, incense, candles, and pretending to be psychic.
-thumbnail: src/games/psychic-night-school/thumb.png
+thumbnail: src/games/psychic-night-school/cover.png
 header_image: src/games/psychic-night-school/cover.png
 blocks:
   - type: hero
@@ -44,6 +44,16 @@ blocks:
         label: Players
       - value: "12+"
         label: Age
+
+  - type: html
+    content: |
+      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
+        <iframe src="https://itch.io/embed/1110316?link_color=f7c877"
+                width="552" height="167" frameborder="0"
+                title="Psychic Night School on Itch.io"
+                loading="lazy"
+                style="width:100%;max-width:552px;"></iframe>
+      </div>
 
   - type: cta
     title: Enrol in Psychic Night School

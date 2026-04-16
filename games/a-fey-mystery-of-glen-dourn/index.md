@@ -6,7 +6,7 @@ featured: true
 system: D&D 5e
 meta_title: "A Fey Mystery of Glen Dourn | D&D 5e adventure for 3-6 players, level 7-9"
 meta_description: A haunted house, a missing person, a hint of wild fey magic, and an unexpected love story. A best-selling D&D 5e adventure.
-thumbnail: src/games/a-fey-mystery-of-glen-dourn/thumb.png
+thumbnail: src/games/a-fey-mystery-of-glen-dourn/cover.png
 header_image: src/games/a-fey-mystery-of-glen-dourn/cover.png
 blocks:
   - type: hero

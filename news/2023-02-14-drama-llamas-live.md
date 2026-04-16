@@ -4,6 +4,7 @@ subtitle: Llamas assemble!
 metaTitle: "Drama Llamas Kickstarter Launch with ZineQuest 5 Project We Love"
 tags:
   - drama-llamas
+thumbnail: src/images/newsletter/drama_llamas_kickstarter.png
 ---
 
 <p>

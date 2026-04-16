@@ -5,7 +5,7 @@ order: 8
 system: Drama Llamas
 meta_title: "Flora and Llama | A Drama Llamas one-shot for 3-5 players and a Producer"
 meta_description: A postcard-sized one-shot for Drama Llamas. Cutthroat camelid contestants compete in elaborate flower-arranging challenges for a lifetime supply of bulbs.
-thumbnail: src/games/flora-and-llama/thumb.png
+thumbnail: src/images/products/drama_llamas_flora_and_llamas.jpeg
 blocks:
   - type: hero
     title: Flora and Llama
@@ -41,6 +41,27 @@ blocks:
         label: Play time
       - value: "£3"
         label: Print edition
+
+  - type: image-cards
+    header_intro: |-
+      ## Buy Direct
+    header_align: center
+    image_aspect_ratio: "1/1"
+    items:
+      - image: src/images/products/drama_llamas_flora_and_llamas.jpeg
+        title: Flora and Llama
+        description: "£3 · Postcard one-shot"
+        link: https://buy.stripe.com/cNieVdaGn80q040eKc7N607
+
+  - type: html
+    content: |
+      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
+        <iframe src="https://itch.io/embed/3022975?link_color=f7c877"
+                width="552" height="167" frameborder="0"
+                title="Flora and Llama on Itch.io"
+                loading="lazy"
+                style="width:100%;max-width:552px;"></iframe>
+      </div>
 
   - type: cta
     title: Get Flora and Llama
