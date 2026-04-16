@@ -74,10 +74,10 @@ blocks:
     intro: |
       ## Downloads
     items:
-      - icon: "hugeicons:file-01"
+      - icon: "hugeicons:pdf-02"
         text: Character Sheet (PDF)
         url: /files/drama_llamas_character_sheet.pdf
-      - icon: "hugeicons:file-01"
+      - icon: "hugeicons:pdf-02"
         text: Quick Start / Cheat Sheet (PDF)
         url: /files/drama_llamas_cheat_sheet.pdf
 

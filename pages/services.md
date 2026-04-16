@@ -15,10 +15,10 @@ blocks:
 
   - type: features
     items:
-      - icon: "hugeicons:layers-01"
+      - icon: "hugeicons:image-02"
         title: Layout
         description: PLACEHOLDER TEXT
-      - icon: "hugeicons:pencil-edit-02"
+      - icon: "hugeicons:note-edit"
         title: Writing
         description: PLACEHOLDER TEXT
 

@@ -23,10 +23,10 @@ blocks:
     intro: |
       ## Available Press Kits
     items:
-      - icon: "hugeicons:file-01"
+      - icon: "hugeicons:pdf-02"
         text: Drama Llamas Press Kit
         url: /press-kits/drama-llamas/
-      - icon: "hugeicons:file-01"
+      - icon: "hugeicons:pdf-02"
         text: Jude's World Press Kit
         url: /press-kits/judes-world/
 

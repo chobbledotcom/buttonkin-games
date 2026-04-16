@@ -15,13 +15,13 @@ blocks:
 
   - type: features
     items:
-      - icon: "hugeicons:live-streaming-02"
+      - icon: "hugeicons:youtube"
         title: Streams
         description: Live streams and convention panels featuring Button Kin games.
-      - icon: "hugeicons:play-circle"
+      - icon: "hugeicons:image-02"
         title: Playthroughs
         description: Actual-play recordings and tutorials from the community.
-      - icon: "hugeicons:news"
+      - icon: "hugeicons:book-02"
         title: Press
         description: Press kits, interviews, and reviews.
 
@@ -29,13 +29,13 @@ blocks:
     intro: |
       ## Jump to a section
     items:
-      - icon: "hugeicons:live-streaming-02"
+      - icon: "hugeicons:youtube"
         text: Streams
         url: /media/streams/
-      - icon: "hugeicons:play-circle"
+      - icon: "hugeicons:image-02"
         text: Playthroughs
         url: /media/playthroughs/
-      - icon: "hugeicons:news"
+      - icon: "hugeicons:book-02"
         text: Press
         url: /media/press/
 ---
