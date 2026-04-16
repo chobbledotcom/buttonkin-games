@@ -70,7 +70,7 @@ blocks:
       - title: Catalyze
         description: "\"When I played Drama Llamas with my buddies I got the giggles so bad that I couldn't talk. It's really easy to play and leaves a lot of room for improvisation and silliness, although there's a clear structure to gee things along too. Some of the artwork is BEAU-TI-FUL! A++ would recommend!\""
 
-  - type: image-cards
+  - type: buy-options
     header_intro: |-
       ## Buy Direct
     header_align: center
@@ -78,15 +78,18 @@ blocks:
     items:
       - image: src/images/products/drama_llamas.jpeg
         title: Drama Llamas
-        description: "£15 · Main rulebook"
+        subtitle: Main rulebook
+        price: "15"
         link: https://buy.stripe.com/5kQ14n15NbcCdUQby07N600
       - image: src/images/products/drama_llamas_postcard_bundle.jpeg
         title: Drama Llamas + 3 one-shots
-        description: "£20 · Bundle"
+        subtitle: Bundle
+        price: "20"
         link: https://buy.stripe.com/28E9ATcOv94u5okcC47N60d
       - image: src/images/products/drama_llamas_postcard_bundle.jpeg
         title: Drama Llamas one-shot bundle
-        description: "£10 · 3 postcard one-shots"
+        subtitle: Three postcard one-shots
+        price: "10"
         link: https://buy.stripe.com/9B64gz9CjbcCdUQby07N605
 
   - type: icon-links
@@ -100,15 +103,11 @@ blocks:
         text: Quick Start / Cheat Sheet (PDF)
         url: /files/drama_llamas_cheat_sheet.pdf
 
-  - type: html
-    content: |
-      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
-        <iframe src="https://itch.io/embed/2094843?link_color=3e0b5d&border_color=ffffff"
-                width="552" height="167" frameborder="0"
-                title="Drama Llamas on Itch.io"
-                loading="lazy"
-                style="width:100%;max-width:552px;"></iframe>
-      </div>
+  - type: iframe-embed
+    src: https://itch.io/embed/2094843?link_color=3e0b5d&border_color=ffffff
+    title: Drama Llamas on Itch.io
+    height: 167
+    max_width: 552px
 
   - type: cta
     title: Buy Drama Llamas

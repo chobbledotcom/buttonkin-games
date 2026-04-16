@@ -61,26 +61,23 @@ blocks:
         description: |
           "A simple little bee RPG that thankfully doesn't make any references to that b—dy film."
 
-  - type: image-cards
+  - type: buy-options
     header_intro: |-
       ## Buy Direct
     header_align: center
+    image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/bumbling_booklet.jpeg
         title: Bumbling
-        description: "£4 · Print edition"
+        subtitle: Print edition
+        price: "4"
         link: https://buy.stripe.com/fZueVd01J4Oe2c859C7N601
-    image_aspect_ratio: "1/1"
 
-  - type: html
-    content: |
-      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
-        <iframe src="https://itch.io/embed/886539?link_color=f7c877"
-                width="552" height="167" frameborder="0"
-                title="Bumbling on Itch.io"
-                loading="lazy"
-                style="width:100%;max-width:552px;"></iframe>
-      </div>
+  - type: iframe-embed
+    src: https://itch.io/embed/886539?link_color=f7c877
+    title: Bumbling on Itch.io
+    height: 167
+    max_width: 552px
 
   - type: cta
     title: Pick up Bumbling today

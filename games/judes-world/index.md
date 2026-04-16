@@ -67,7 +67,7 @@ blocks:
       - value: £10
         label: Print Edition
 
-  - type: image-cards
+  - type: buy-options
     header_intro: |-
       ## Buy Direct
     header_align: center
@@ -75,26 +75,25 @@ blocks:
     items:
       - image: src/images/products/judes_world_zine.jpeg
         title: Jude's World
-        description: "£10 · Zine"
+        subtitle: Zine
+        price: "10"
         link: https://buy.stripe.com/cNi00j6q74OecQM0Tm7N602
       - image: src/images/products/judes_world_workbook.jpeg
         title: Jude's World Workbook
-        description: "£5 · Companion workbook"
+        subtitle: Companion workbook
+        price: "5"
         link: https://buy.stripe.com/bJe3cvbKra8y4kg6dG7N603
       - image: src/images/products/judes_world_bundle.jpeg
         title: Jude's World Bundle
-        description: "£13 · Zine + workbook"
+        subtitle: Zine + workbook
+        price: "13"
         link: https://buy.stripe.com/fZuaEX15N6WmeYU8lO7N604
 
-  - type: html
-    content: |
-      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
-        <iframe src="https://itch.io/embed/3083432?link_color=f7c877"
-                width="552" height="167" frameborder="0"
-                title="Jude's World on Itch.io"
-                loading="lazy"
-                style="width:100%;max-width:552px;"></iframe>
-      </div>
+  - type: iframe-embed
+    src: https://itch.io/embed/3083432?link_color=f7c877
+    title: Jude's World on Itch.io
+    height: 167
+    max_width: 552px
 
   - type: cta
     title: Pick up Jude's World

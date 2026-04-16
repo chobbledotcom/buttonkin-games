@@ -51,29 +51,8 @@ blocks:
     reference: featured-games
 
   # Newsletter signup
-  - type: split-html
-    title: The Button Kin Times
-    subtitle: Monthly newsletter
-    content: |
-      Stay in the know about what's coming up for Button Kin. Sign up to the
-      Button Kin Times — Yvris's monthly newsletter — for release announcements,
-      behind-the-scenes game design notes, and first dibs on upcoming events.
-    button:
-      text: All Past Issues
-      href: /blog/
-      variant: secondary
-    figure_html: |
-      <div class="iframe-container">
-        <iframe
-          loading="lazy"
-          scrolling="no"
-          class="subscribe"
-          src="https://buttondown.email/button_kin_games?as_embed=true"
-          referrerpolicy="strict-origin-when-cross-origin"
-          sandbox="allow-scripts allow-same-origin allow-forms"
-          title="Subscribe to Button Kin Games newsletter"
-        ></iframe>
-      </div>
+  - type: snippet
+    reference: newsletter
 
   # Recent blog posts
   - type: snippet

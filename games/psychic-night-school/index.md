@@ -45,15 +45,11 @@ blocks:
       - value: "12+"
         label: Age
 
-  - type: html
-    content: |
-      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
-        <iframe src="https://itch.io/embed/1110316?link_color=f7c877"
-                width="552" height="167" frameborder="0"
-                title="Psychic Night School on Itch.io"
-                loading="lazy"
-                style="width:100%;max-width:552px;"></iframe>
-      </div>
+  - type: iframe-embed
+    src: https://itch.io/embed/1110316?link_color=f7c877
+    title: Psychic Night School on Itch.io
+    height: 167
+    max_width: 552px
 
   - type: cta
     title: Enrol in Psychic Night School

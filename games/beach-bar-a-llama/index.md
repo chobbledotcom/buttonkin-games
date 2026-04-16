@@ -43,7 +43,7 @@ blocks:
       - value: "£3"
         label: Print edition
 
-  - type: image-cards
+  - type: buy-options
     header_intro: |-
       ## Buy Direct
     header_align: center
@@ -51,18 +51,15 @@ blocks:
     items:
       - image: src/images/products/drama_llamas_beach_bar_a_llama.jpeg
         title: Beach Bar-a-Llama
-        description: "£3 · Postcard one-shot"
+        subtitle: Postcard one-shot
+        price: "3"
         link: https://buy.stripe.com/14AdR9eWDbcCeYUby07N606
 
-  - type: html
-    content: |
-      <div class="iframe-container" style="max-width: 560px; margin: 0 auto;">
-        <iframe src="https://itch.io/embed/3022978?link_color=f7c877"
-                width="552" height="167" frameborder="0"
-                title="Beach Bar-a-Llama on Itch.io"
-                loading="lazy"
-                style="width:100%;max-width:552px;"></iframe>
-      </div>
+  - type: iframe-embed
+    src: https://itch.io/embed/3022978?link_color=f7c877
+    title: Beach Bar-a-Llama on Itch.io
+    height: 167
+    max_width: 552px
 
   - type: cta
     title: Get Beach Bar-a-Llama
