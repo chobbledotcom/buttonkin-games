@@ -5,8 +5,8 @@ order: 1
 featured: true
 meta_title: "Jude's World | A coming-of-age solo TTRPG about love in all its forms"
 meta_description: Jude's World is a solo, tarot-based journaling TTRPG about 12-year-old Jude navigating their parents' divorce and the messiness of growing up.
-thumbnail: games/judes-world/thumb.png
-header_image: games/judes-world/cover.png
+thumbnail: src/games/judes-world/thumb.png
+header_image: src/games/judes-world/cover.png
 eleventyNavigation:
   key: Jude's World
   parent: Releases
@@ -30,11 +30,11 @@ blocks:
   - type: gallery
     aspect_ratio: "4/3"
     items:
-      - image: games/judes-world/layout_preview_1.png
+      - image: src/games/judes-world/layout_preview_1.png
         caption: A page from the Jude's World zine
-      - image: games/judes-world/layout_preview_2.png
+      - image: src/games/judes-world/layout_preview_2.png
         caption: A page from the Jude's World zine
-      - image: games/judes-world/layout_preview_3.png
+      - image: src/games/judes-world/layout_preview_3.png
         caption: A page from the Jude's World zine
 
   - type: split-image
@@ -47,7 +47,7 @@ blocks:
       World pays homage to and critiques "Parent Trap"-style narratives as well
       as revelling in a 90s sitcom tone inspired by the likes of _The Fresh
       Prince of Bel-Air_ and _Clarissa Explains It All_.
-    figure_src: games/judes-world/layout_preview_2.png
+    figure_src: src/games/judes-world/layout_preview_2.png
     figure_alt: A page from the Jude's World zine
 
   - type: split-video

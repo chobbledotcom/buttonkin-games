@@ -4,8 +4,8 @@ subtitle: Make your own tarot cards! A game about being, or pretending to be, ps
 order: 6
 meta_title: "Psychic Night School | A drawing, divining, creative, GM-less TTRPG about psychics"
 meta_description: A GM-less roleplaying and drawing game for fans of tarot, astrology, incense, candles, and pretending to be psychic.
-thumbnail: games/psychic-night-school/thumb.png
-header_image: games/psychic-night-school/cover.png
+thumbnail: src/games/psychic-night-school/thumb.png
+header_image: src/games/psychic-night-school/cover.png
 blocks:
   - type: hero
     title: Psychic Night School
@@ -35,7 +35,7 @@ blocks:
       own tarot cards before performing a reading for one of your classmates.
 
       _May the spirits guide you to the top of the class._
-    figure_src: games/psychic-night-school/examples.jpeg
+    figure_src: src/games/psychic-night-school/examples.jpeg
     figure_alt: Actual play example showing hand-drawn tarot cards
 
   - type: stats

@@ -4,7 +4,7 @@ subtitle: A coin-toss based RPG to play on a walk
 order: 5
 meta_title: "Righteous Jaunt | A family TTRPG designed to be played while walking"
 meta_description: A mechanics-light, d2 based story game in the action-adventure genre, designed to be played on the move for 2-4 players plus a GM.
-thumbnail: games/righteous-jaunt/thumb.png
+thumbnail: src/games/righteous-jaunt/thumb.png
 blocks:
   - type: hero
     title: Righteous Jaunt

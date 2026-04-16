@@ -5,8 +5,8 @@ order: 2
 featured: true
 meta_title: "Drama Llamas | A chaotic, comedic TTRPG about llamas on reality TV"
 meta_description: Drama Llamas is a narrative-driven TTRPG about reality TV competitions. Easy to plan and easy to play, packed with genre tropes and chaos-generating mechanics.
-thumbnail: games/drama-llamas/thumb.png
-header_image: games/drama-llamas/cover.jpg
+thumbnail: src/games/drama-llamas/thumb.png
+header_image: src/games/drama-llamas/cover.jpg
 eleventyNavigation:
   key: Drama Llamas
   parent: Releases
@@ -39,7 +39,7 @@ blocks:
       create (or recreate) the reality franchise of your dreams. The game is
       packed with genre tropes and chaos-generating mechanics, all with an
       absurdist, llama-flavoured twist.
-    figure_src: games/drama-llamas/camera.png
+    figure_src: src/games/drama-llamas/camera.png
     figure_alt: A llama presenter speaking into a microphone in front of a camera operated by a llama camera person
 
   - type: split-video

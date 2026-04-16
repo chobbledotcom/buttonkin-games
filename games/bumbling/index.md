@@ -4,8 +4,8 @@ subtitle: A relaxing map-making and journaling game about dancing bees
 order: 3
 meta_title: "Bumbling | A drawing, journaling, map-making solo TTRPG about bees"
 meta_description: Bumbling is a sweet, relaxing solo TTRPG about a newly hatched worker bee learning to dance, explore, and map the world.
-thumbnail: games/bumbling/thumb.png
-header_image: games/bumbling/cover.png
+thumbnail: src/games/bumbling/thumb.png
+header_image: src/games/bumbling/cover.png
 blocks:
   - type: hero
     title: Bumbling
@@ -33,7 +33,7 @@ blocks:
       map your world, make animal friends, and harvest pollen for your hive.
       This is a sweet, relaxing game to play on a rainy afternoon while
       journaling and doodling.
-    figure_src: games/bumbling/hexes.png
+    figure_src: src/games/bumbling/hexes.png
     figure_alt: Hex-grid map example from Bumbling
 
   - type: stats
