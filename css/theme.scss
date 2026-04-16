@@ -1,2 +1,68 @@
 @charset "utf-8";
-@use "sass:color";
+
+// =============================================================================
+// BUTTON KIN GAMES — THEME
+// =============================================================================
+// Derived from the old Button Kin site's style.scss:
+//   $highlight: #004d3b (dark green)
+//   $light-pink: #f6d9e1
+//   $dark-pink:  #923a52
+//   body bg:    #f6d9e1
+//   headings:   "Calistoga" display
+//   body:       condensed sans (AvenirNext / HelveticaNeue-CondensedBold /
+//               Ubuntu Condensed / Arial Narrow / sans-serif)
+// =============================================================================
+
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+
+:root {
+  // --- Palette ----------------------------------------------------------------
+  --color-bg: #f6d9e1;                   // light pink — page background
+  --body-background: #f6d9e1;
+  --body-background-alt: #efc9d3;        // slightly darker pink for alt sections
+  --color-card-bg: #ffffff;              // white cards / panels
+  --color-text: #111111;
+  --color-text-muted: #666666;
+
+  // Pink is the primary link/accent, green is the secondary accent
+  --color-link: #923a52;                 // dark pink
+  --color-link-hover: #004d3b;           // dark green highlight
+  --color-tint: #fff0f4;                 // very pale pink for icon/badge bgs
+  --color-secondary: #004d3b;            // dark green
+  --color-accent: #b35b72;               // mid pink (was the old "shop" button)
+  --color-hover-bg: rgba(146, 58, 82, 0.08);
+
+  --color-contrast-text: #ffffff;
+  --color-contrast-text-muted: rgba(255, 255, 255, 0.85);
+
+  --color-gradient-start: rgba(146, 58, 82, 0.22);
+  --color-gradient-end: rgba(0, 77, 59, 0.18);
+
+  // Dark sections — pair deep green with cream text so the palette stays warm
+  --color-dark-bg: #003a2c;
+  --color-dark-bg-alt: #002f24;
+  --color-dark-text: #fff7f4;
+  --color-dark-text-muted: #d9c8cd;
+  --color-dark-card-bg: #0a5a47;
+  --color-dark-link: #f6d9e1;
+
+  // Shadows — soft, matches the original style.scss
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 5px 15px rgba(0, 0, 0, 0.10);
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+
+  // --- Typography -------------------------------------------------------------
+  --font-family-heading: "Calistoga", Georgia, "Times New Roman", serif;
+  --font-family-body:
+    "AvenirNext-Regular", "Tahoma", "HelveticaNeue-CondensedBold",
+    "Ubuntu Condensed", "Liberation Sans Narrow", "Franklin Gothic Demi",
+    "Arial Narrow", "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
+
+  // --- Shape ------------------------------------------------------------------
+  --border: 2px solid #f6d9e1;           // matches the old spec-card border
+  --border-radius: 8px;                  // matches .container in the old site
+
+  // --- Lists ------------------------------------------------------------------
+  --list-marker-content: "✦ ";
+  --list-marker-color: #923a52;
+}
