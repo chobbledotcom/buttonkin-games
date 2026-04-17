@@ -1,0 +1,46 @@
+---
+layout: design-system-base.html
+blocks: false
+---
+
+<section class="compact">
+  <div class="container-wide">
+    <div class="section-header prose">
+      <h1>{{ title | escape }}</h1>
+      {%- if subtitle and subtitle != "" -%}
+        <p class="text-muted">{{ subtitle | escape }}</p>
+      {%- endif -%}
+      <p class="text-muted">
+        <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      </p>
+    </div>
+  </div>
+</section>
+
+{%- if thumbnail -%}
+<section class="compact">
+  <div class="container-narrow">
+    {%- image thumbnail, title, "480, 720, 960", "", "", "16/9" -%}
+  </div>
+</section>
+{%- endif -%}
+
+<section>
+  <div class="container-narrow">
+    <div class="prose">{{ content }}</div>
+  </div>
+</section>
+
+{%- if gallery -%}
+<section>
+  <div class="container-wide">
+    {% include "news-post-gallery.html" %}
+  </div>
+</section>
+{%- endif -%}
+
+<section class="compact">
+  <div class="container-narrow" style="text-align: center;">
+    <a href="/blog/" class="btn--secondary">All blog posts</a>
+  </div>
+</section>
