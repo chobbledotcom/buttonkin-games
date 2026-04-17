@@ -1,0 +1,5 @@
+{
+	"layout": "design-system-base.html",
+	"tags": ["games"],
+	"permalink": "/releases/{{ page.fileSlug }}/"
+}

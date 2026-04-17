@@ -1,0 +1,19 @@
+{
+	"bluesky": "hugeicons:global",
+	"email": "hugeicons:mail-01",
+	"facebook": "hugeicons:facebook-01",
+	"forgejo": "simple-icons:forgejo",
+	"github": "hugeicons:github-01",
+	"google": "hugeicons:google",
+	"instagram": "hugeicons:instagram",
+	"itch": "hugeicons:gears",
+	"linkedin": "hugeicons:linkedin-01",
+	"mastodon": "hugeicons:mastodon",
+	"medium": "hugeicons:note-edit",
+	"rss": "hugeicons:rss",
+	"tiktok": "hugeicons:tiktok",
+	"tumblr": "hugeicons:tag-01",
+	"twitter": "hugeicons:new-twitter",
+	"whatsapp": "hugeicons:whatsapp",
+	"youtube": "hugeicons:youtube"
+}

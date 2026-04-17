@@ -46,6 +46,34 @@ content:
       - { name: meta_description, type: string, label: Meta Description }
       - { name: meta_title, type: string, label: Meta Title }
       
+  - name: games
+    label: Games
+    path: games
+    type: collection
+    subfolders: true
+    view:
+      fields: [title, subtitle, featured, order]
+      primary: title
+      sort: [order, title]
+    fields:
+      - { name: title, type: string, label: Title }
+      - { name: subtitle, type: string, label: Subtitle }
+      - { name: order, type: number, label: Order }
+      - { name: featured, type: boolean, label: Featured }
+      - { name: thumbnail, type: image, label: Thumbnail }
+      - { name: header_image, type: image, label: Header Image }
+      - { name: meta_title, type: string, label: Meta Title }
+      - { name: meta_description, type: string, label: Meta Description }
+      - { name: blocks, label: Blocks, type: code, options: { language: yaml } }
+      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - name: eleventyNavigation
+        label: Navigation
+        type: object
+        fields:
+          - { name: key, type: string }
+          - { name: parent, type: string }
+          - { name: order, type: number }
+
   - name: products
     label: Products
     path: products
