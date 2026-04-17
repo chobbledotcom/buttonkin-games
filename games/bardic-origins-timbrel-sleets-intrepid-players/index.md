@@ -6,6 +6,8 @@ system: D&D 5e
 meta_title: "Timbrel Sleet's Intrepid Players | Bardic Origins | D&D 5e for 3-6 players, level 5-9"
 meta_description: A D&D 5e supplement from the Bardic Origins series — meet a touring company of tabaxi minstrels and the occasional heist.
 thumbnail: src/games/bardic-origins-timbrel-sleets-intrepid-players/thumb.png
+redirect_from:
+  - /bardic-origins-timbrel-sleets-intrepid-players/
 blocks:
   - type: hero
     title: Timbrel Sleet's Intrepid Players

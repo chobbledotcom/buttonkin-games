@@ -6,6 +6,8 @@ system: D&D 5e
 meta_title: "The Lyric Grove | Bardic Origins | D&D 5e for 3-6 players, level 5-9"
 meta_description: A D&D 5e supplement from the Bardic Origins series — a detailed setting, NPCs, a one-shot adventure, and new items.
 thumbnail: src/games/bardic-origins-the-lyric-grove/thumb.png
+redirect_from:
+  - /bardic-origins-the-lyric-grove/
 blocks:
   - type: hero
     title: The Lyric Grove

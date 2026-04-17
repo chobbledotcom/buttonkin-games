@@ -6,6 +6,8 @@ system: Drama Llamas
 meta_title: "Llama Warrior | A Drama Llamas one-shot for 3-5 players and a Producer"
 meta_description: A postcard-sized one-shot for Drama Llamas. Cutthroat camelid contestants face the mighty Llamanators in fiendish physical challenges.
 thumbnail: src/images/products/drama_llamas_llama_warrior.jpeg
+redirect_from:
+  - /llama-warrior/
 blocks:
   - type: hero
     title: Llama Warrior

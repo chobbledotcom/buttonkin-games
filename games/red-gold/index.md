@@ -6,6 +6,8 @@ system: D&D 5e
 meta_title: "Red Gold | D&D 5e adventure for 3-6 players, level 1-3"
 meta_description: A D&D 5e one-shot featuring pirates and eco-warrior druids, set on the world's first offshore rig. Great for new parties.
 thumbnail: src/games/red-gold/thumb.png
+redirect_from:
+  - /red-gold/
 blocks:
   - type: hero
     title: Red Gold

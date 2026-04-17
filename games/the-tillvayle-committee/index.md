@@ -7,6 +7,8 @@ meta_title: "The Tillvayle Committee | D&D 5e adventure for 3-4 players, level 7
 meta_description: An OGL murder-mystery D&D 5e adventure inspired by Midsomer Murders, Hot Fuzz, and NIMBYs the world over.
 thumbnail: src/images/products/tillvayle_booklet.jpeg
 header_image: src/games/the-tillvayle-committee/cover.png
+redirect_from:
+  - /the-tillvayle-committee/
 blocks:
   - type: hero
     title: The Tillvayle Committee

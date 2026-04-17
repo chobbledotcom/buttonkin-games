@@ -6,6 +6,8 @@ meta_title: "Caltrop Kaiju | A monstrously fun and fast-paced disaster TTRPG"
 meta_description: A solo TTRPG that can be played in ten minutes as a tense tactical puzzle, or in a couple of hours as a journaling story game.
 thumbnail: src/images/products/caltrop_kaiju_booklet.jpeg
 header_image: src/games/caltrop-kaiju/cover.png
+redirect_from:
+  - /caltrop-kaiju/
 blocks:
   - type: hero
     title: Caltrop Kaiju
@@ -32,6 +34,11 @@ blocks:
       tactical puzzle, or in a couple of hours as a journaling / story game.
     figure_src: src/games/caltrop-kaiju/kaiju_map.png
     figure_alt: A 7 by 7 grid with icons for a nuclear power plant, a mountain, a bridge, a radio tower, a town hall, and a port
+
+  - type: callout
+    variant: info
+    title: Suitable for
+    content: A single player aged 10 and up. Younger children can play with a little guidance.
 
   - type: stats
     items:

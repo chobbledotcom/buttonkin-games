@@ -11,6 +11,8 @@ eleventyNavigation:
   key: Bumbling
   parent: Releases
   order: 3
+redirect_from:
+  - /bumbling/
 blocks:
   - type: hero
     title: Bumbling
@@ -40,6 +42,11 @@ blocks:
       journaling and doodling.
     figure_src: src/games/bumbling/hexes.png
     figure_alt: Hex-grid map example from Bumbling
+
+  - type: callout
+    variant: info
+    title: Suitable for
+    content: A single player aged 10 and up. Younger children can play with a little guidance.
 
   - type: stats
     items:

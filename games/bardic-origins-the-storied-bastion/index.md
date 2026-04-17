@@ -6,6 +6,8 @@ system: D&D 5e
 meta_title: "The Storied Bastion | Bardic Origins | D&D 5e for 3-6 players, level 5-9"
 meta_description: A D&D 5e supplement from the Bardic Origins series — a detailed setting, NPCs, a one-shot adventure, and two new items.
 thumbnail: src/games/bardic-origins-the-storied-bastion/thumb.png
+redirect_from:
+  - /bardic-origins-the-storied-bastion/
 blocks:
   - type: hero
     title: The Storied Bastion

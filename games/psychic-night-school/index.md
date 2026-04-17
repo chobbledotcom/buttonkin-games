@@ -6,6 +6,8 @@ meta_title: "Psychic Night School | A drawing, divining, creative, GM-less TTRPG
 meta_description: A GM-less roleplaying and drawing game for fans of tarot, astrology, incense, candles, and pretending to be psychic.
 thumbnail: src/games/psychic-night-school/cover.png
 header_image: src/games/psychic-night-school/cover.png
+redirect_from:
+  - /psychic-night-school/
 blocks:
   - type: hero
     title: Psychic Night School
@@ -37,6 +39,11 @@ blocks:
       _May the spirits guide you to the top of the class._
     figure_src: src/games/psychic-night-school/examples.jpeg
     figure_alt: Actual play example showing hand-drawn tarot cards
+
+  - type: callout
+    variant: info
+    title: Suitable for
+    content: 3–6 players aged 12 and up. Younger children can play with a little guidance. Larger groups with a little patience.
 
   - type: stats
     items:

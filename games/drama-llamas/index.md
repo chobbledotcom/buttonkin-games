@@ -11,6 +11,8 @@ eleventyNavigation:
   key: Drama Llamas
   parent: Releases
   order: 2
+redirect_from:
+  - /drama-llamas/
 blocks:
   - type: hero
     title: Drama Llamas
@@ -50,6 +52,11 @@ blocks:
     figure_video_id: LsuIGM1oHMw
     figure_alt: Drama Llamas TTRPG Gameplay
     reverse: true
+
+  - type: callout
+    variant: info
+    title: Suitable for
+    content: 3–6 players of all ages and a GM.
 
   - type: stats
     items:

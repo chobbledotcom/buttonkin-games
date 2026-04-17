@@ -11,6 +11,8 @@ eleventyNavigation:
   key: Jude's World
   parent: Releases
   order: 1
+redirect_from:
+  - /judes-world/
 blocks:
   - type: hero
     title: Jude's World
@@ -57,6 +59,11 @@ blocks:
     figure_video_id: aagYwQLZjcY
     figure_alt: Jude's World play through by Kat the Loremistress
     reverse: true
+
+  - type: callout
+    variant: info
+    title: Suitable for
+    content: A single player aged 15 and up.
 
   - type: stats
     items:

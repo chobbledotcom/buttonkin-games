@@ -6,6 +6,8 @@ system: Drama Llamas
 meta_title: "Flora and Llama | A Drama Llamas one-shot for 3-5 players and a Producer"
 meta_description: A postcard-sized one-shot for Drama Llamas. Cutthroat camelid contestants compete in elaborate flower-arranging challenges for a lifetime supply of bulbs.
 thumbnail: src/images/products/drama_llamas_flora_and_llamas.jpeg
+redirect_from:
+  - /flora-and-llama/
 blocks:
   - type: hero
     title: Flora and Llama

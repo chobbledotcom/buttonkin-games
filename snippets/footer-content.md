@@ -1,6 +1,20 @@
 ---
 name: Footer Content
 blocks:
+  - type: split-image
+    title: Button Kin Games
+    content: |
+      A one-woman indie TTRPG studio from Yvris Burke, based in
+      Manchester, UK. Whimsical, weird, and wonderful tabletop games.
+
+      [Browse all releases](/releases/) · [About Yvris](/about/)
+    figure_src: images/brand/logo_transparent_bg.png
+    figure_alt: Button Kin Games logo
+    dark: true
+
+  - type: snippet
+    reference: recent-blog-posts
+
   - type: contact-form
     header_intro: |-
       ## Contact Button Kin
@@ -11,6 +25,7 @@ blocks:
       Get in touch about our games, upcoming events, writing commissions, or layout services.
 
       Email: [info@buttonkin.com](mailto:info@buttonkin.com)
+
   - type: snippet
     reference: socials
 ---

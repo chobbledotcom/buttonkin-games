@@ -6,6 +6,8 @@ system: Drama Llamas
 meta_title: "Beach Bar-a-Llama | A Drama Llamas one-shot for 3-5 players and a Producer"
 meta_description: A postcard-sized one-shot for Drama Llamas. Cutthroat camelid contestants compete to build the hottest beach bar on a newly discovered island in the Medita-llam-ian.
 thumbnail: src/images/products/drama_llamas_beach_bar_a_llama.jpeg
+redirect_from:
+  - /beach-bar-a-llama/
 blocks:
   - type: hero
     title: Beach Bar-a-Llama

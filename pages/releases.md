@@ -6,6 +6,9 @@ meta_description: Browse Button Kin's catalogue of indie TTRPGs — from solo jo
 eleventyNavigation:
   key: Releases
   order: 2
+redirect_from:
+  - /games/
+  - /adventures/
 blocks:
   - type: section-header
     intro: |-

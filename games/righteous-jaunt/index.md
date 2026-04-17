@@ -5,6 +5,8 @@ order: 5
 meta_title: "Righteous Jaunt | A family TTRPG designed to be played while walking"
 meta_description: A mechanics-light, d2 based story game in the action-adventure genre, designed to be played on the move for 2-4 players plus a GM.
 thumbnail: src/images/products/righteous_jaunt_booklet.jpeg
+redirect_from:
+  - /righteous-jaunt/
 blocks:
   - type: hero
     title: Righteous Jaunt
@@ -33,6 +35,11 @@ blocks:
       character creation instructions for multiple playable species, a
       quick-start, rollable plot generator for GMs, and monster catalogs for
       both adult-only and child-friendly games.
+
+  - type: callout
+    variant: info
+    title: Suitable for
+    content: 2–4 players aged 6 and up.
 
   - type: stats
     items:
