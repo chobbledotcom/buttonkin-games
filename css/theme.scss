@@ -66,3 +66,64 @@
   --list-marker-content: "✦ ";
   --list-marker-color: #923a52;
 }
+
+// =============================================================================
+// PER-PAGE BACKGROUNDS
+// =============================================================================
+// Each game's release page gets a themed background image at low opacity,
+// painted behind the content via a fixed pseudo-element so it stays in place
+// while scrolling.
+// =============================================================================
+
+%page-background {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-repeat: repeat;
+    background-position: center;
+    opacity: 0.18;
+  }
+}
+
+.page--releases--drama-llamas {
+  @extend %page-background;
+
+  &::before {
+    background-image: url("/images/page-backgrounds/fur.svg");
+    background-size: 600px 600px;
+  }
+}
+
+.page--releases--judes-world {
+  @extend %page-background;
+
+  &::before {
+    background-image: url("/images/page-backgrounds/squiggles.svg");
+    background-size: 400px 400px;
+  }
+}
+
+.page--releases--bumbling {
+  @extend %page-background;
+
+  &::before {
+    background-image: url("/images/page-backgrounds/bees.svg");
+    background-size: 500px 500px;
+  }
+}
+
+.page--releases--caltrop-kaiju {
+  @extend %page-background;
+
+  &::before {
+    background-image: url("/images/page-backgrounds/cityscape.svg");
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    background-size: 800px auto;
+  }
+}

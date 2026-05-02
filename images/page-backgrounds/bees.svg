@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#ffffff"/>
+  <defs>
+    <g id="bee">
+      <!-- wings -->
+      <ellipse cx="-18" cy="-20" rx="22" ry="14" fill="none" stroke="#c81c7e" stroke-width="3"/>
+      <ellipse cx="14" cy="-20" rx="22" ry="14" fill="none" stroke="#c81c7e" stroke-width="3"/>
+      <!-- body -->
+      <ellipse cx="0" cy="6" rx="18" ry="26" fill="none" stroke="#c81c7e" stroke-width="3.5"/>
+      <!-- stripes -->
+      <path d="M-15 -2 q15 6 30 0" stroke="#c81c7e" stroke-width="3" fill="none"/>
+      <path d="M-17 8 q17 7 34 0" stroke="#c81c7e" stroke-width="3" fill="none"/>
+      <path d="M-15 18 q15 6 30 0" stroke="#c81c7e" stroke-width="3" fill="none"/>
+      <!-- head -->
+      <circle cx="0" cy="-22" r="9" fill="none" stroke="#c81c7e" stroke-width="3"/>
+      <!-- eyes -->
+      <circle cx="-3" cy="-23" r="1.5" fill="#c81c7e"/>
+      <circle cx="3" cy="-23" r="1.5" fill="#c81c7e"/>
+      <!-- antennae -->
+      <path d="M-3 -30 q-3 -6 -7 -8" stroke="#c81c7e" stroke-width="2" fill="none"/>
+      <path d="M3 -30 q3 -6 7 -8" stroke="#c81c7e" stroke-width="2" fill="none"/>
+      <!-- legs -->
+      <path d="M-15 0 l-8 -3" stroke="#c81c7e" stroke-width="2"/>
+      <path d="M-17 8 l-9 0" stroke="#c81c7e" stroke-width="2"/>
+      <path d="M-15 18 l-8 4" stroke="#c81c7e" stroke-width="2"/>
+      <path d="M15 0 l8 -3" stroke="#c81c7e" stroke-width="2"/>
+      <path d="M17 8 l9 0" stroke="#c81c7e" stroke-width="2"/>
+      <path d="M15 18 l8 4" stroke="#c81c7e" stroke-width="2"/>
+    </g>
+  </defs>
+  <use href="#bee" transform="translate(80 90) rotate(-15)"/>
+  <use href="#bee" transform="translate(330 70) rotate(20)"/>
+  <use href="#bee" transform="translate(220 200) rotate(-30)"/>
+  <use href="#bee" transform="translate(420 250) rotate(45)"/>
+  <use href="#bee" transform="translate(60 320) rotate(60)"/>
+  <use href="#bee" transform="translate(280 380) rotate(-10)"/>
+  <use href="#bee" transform="translate(140 440) rotate(25)"/>
+  <use href="#bee" transform="translate(400 440) rotate(-50)"/>
+</svg>

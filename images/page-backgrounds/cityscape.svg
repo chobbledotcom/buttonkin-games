@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" preserveAspectRatio="xMidYMax slice">
+  <rect width="800" height="600" fill="#ffffff"/>
+  <g fill="#000000">
+    <!-- Tall building -->
+    <rect x="40" y="220" width="80" height="380"/>
+    <!-- Mid building with pointed top -->
+    <polygon points="140,260 175,230 210,260 210,600 140,600"/>
+    <!-- Tower -->
+    <rect x="230" y="120" width="100" height="480"/>
+    <rect x="260" y="80" width="40" height="40"/>
+    <!-- Domed building -->
+    <path d="M350 280 a40 40 0 0 1 80 0 v320 h-80 z"/>
+    <!-- Tall flat -->
+    <rect x="450" y="180" width="90" height="420"/>
+    <!-- Stepped tower -->
+    <rect x="560" y="140" width="120" height="460"/>
+    <rect x="600" y="80" width="40" height="60"/>
+    <!-- Right tall -->
+    <rect x="700" y="200" width="80" height="400"/>
+  </g>
+  <!-- windows -->
+  <g fill="#ffffff">
+    <rect x="60" y="270" width="10" height="18"/>
+    <rect x="90" y="320" width="10" height="18"/>
+    <rect x="60" y="380" width="10" height="18"/>
+    <rect x="90" y="440" width="10" height="18"/>
+    <rect x="60" y="500" width="10" height="18"/>
+
+    <rect x="160" y="320" width="10" height="18"/>
+    <rect x="180" y="400" width="10" height="18"/>
+    <rect x="170" y="480" width="10" height="18"/>
+
+    <rect x="250" y="160" width="12" height="22"/>
+    <rect x="290" y="220" width="12" height="22"/>
+    <rect x="260" y="290" width="12" height="22"/>
+    <rect x="290" y="360" width="12" height="22"/>
+    <rect x="250" y="430" width="12" height="22"/>
+    <rect x="290" y="500" width="12" height="22"/>
+
+    <rect x="370" y="320" width="12" height="20"/>
+    <rect x="400" y="380" width="12" height="20"/>
+    <rect x="380" y="450" width="12" height="20"/>
+    <rect x="400" y="520" width="12" height="20"/>
+
+    <rect x="470" y="220" width="12" height="22"/>
+    <rect x="510" y="280" width="12" height="22"/>
+    <rect x="475" y="350" width="12" height="22"/>
+    <rect x="510" y="420" width="12" height="22"/>
+    <rect x="475" y="490" width="12" height="22"/>
+
+    <rect x="580" y="180" width="14" height="24"/>
+    <rect x="630" y="240" width="14" height="24"/>
+    <rect x="590" y="320" width="14" height="24"/>
+    <rect x="650" y="400" width="14" height="24"/>
+    <rect x="600" y="480" width="14" height="24"/>
+    <rect x="650" y="540" width="14" height="24"/>
+
+    <rect x="720" y="240" width="12" height="22"/>
+    <rect x="755" y="310" width="12" height="22"/>
+    <rect x="725" y="390" width="12" height="22"/>
+    <rect x="755" y="470" width="12" height="22"/>
+    <rect x="720" y="550" width="12" height="22"/>
+  </g>
+</svg>
