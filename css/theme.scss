@@ -40,9 +40,9 @@
   --color-gradient-start: rgba(146, 58, 82, 0.22);
   --color-gradient-end: rgba(0, 77, 59, 0.18);
 
-  // Dark sections — pair deep green with cream text so the palette stays warm
-  --color-dark-bg: #003a2c;
-  --color-dark-bg-alt: #002f24;
+  // Dark sections — translucent dark plum so page backgrounds bleed through
+  --color-dark-bg: #322036d6;
+  --color-dark-bg-alt: #322036d6;
   --color-dark-text: #fff7f4;
   --color-dark-text-muted: #d9c8cd;
   --color-dark-card-bg: #0a5a47;
@@ -72,14 +72,16 @@
 // =============================================================================
 // PAGE BACKGROUNDS
 // =============================================================================
-// Every page gets a fixed, low-opacity background painted behind the content
-// via two pseudo-elements on body. The default is the dice-corner artwork
-// from the old site, mirrored bottom-left and bottom-right. The four featured
-// release pages override `background-image` (and any positioning) on both
-// pseudo-elements to swap in their own themed artwork.
+// Every page gets a fixed, full-viewport, low-opacity background painted
+// behind the content via body::before. The default is the dice-corner
+// artwork from the old site (stretched to cover, matching the old
+// .cover-image treatment). The four featured release pages override the
+// `background-image` (and tweak positioning where needed) to swap in their
+// own themed artwork.
 //
 // The page-bg colour lives on `html` and body itself is transparent so the
-// fixed pseudo-elements (z-index: -1) actually show through.
+// fixed pseudo-element (z-index: -1) actually paints behind body content
+// instead of being hidden by body's own background layer.
 // =============================================================================
 
 html {
@@ -90,74 +92,40 @@ body.design-system {
   background: transparent;
 }
 
-body {
-  position: relative;
-
-  &::before,
-  &::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    pointer-events: none;
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: 40vmin auto;
-    background-image: url("/images/brand/dice-corner.png");
-    opacity: 0.18;
-  }
-
-  &::after {
-    background-position: bottom right;
-    transform: scaleX(-1);
-  }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url("/images/brand/dice-corner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.18;
 }
 
-// --- Per-release overrides --------------------------------------------------
-// These pages get a custom themed image instead of the dice. The ::after
-// pseudo-element is hidden because each themed image carries its own pattern.
-
-%release-background {
-  &::before {
-    background-position: center;
-    background-size: cover;
-  }
-  &::after { display: none; }
+.page--releases--drama-llamas::before {
+  background-image: url("/images/backgrounds/drama_llamas_background.png");
 }
 
-.page--releases--drama-llamas {
-  @extend %release-background;
-  &::before {
-    background-image: url("/images/backgrounds/drama_llamas_background.png");
-  }
+.page--releases--judes-world::before {
+  background-image: url("/images/backgrounds/judes_world_background.png");
+  background-repeat: repeat;
+  background-size: 500px 500px;
+  opacity: 0.10;
 }
 
-.page--releases--judes-world {
-  @extend %release-background;
-  &::before {
-    background-image: url("/images/backgrounds/judes_world_background.png");
-    background-repeat: repeat;
-    background-size: 500px 500px;
-    opacity: 0.10;
-  }
+.page--releases--bumbling::before {
+  background-image: url("/images/backgrounds/bumbling_background.png");
+  background-repeat: repeat;
+  background-size: 500px auto;
+  opacity: 0.10;
 }
 
-.page--releases--bumbling {
-  @extend %release-background;
-  &::before {
-    background-image: url("/images/backgrounds/bumbling_background.png");
-    background-repeat: repeat;
-    background-size: 500px auto;
-    opacity: 0.10;
-  }
-}
-
-.page--releases--caltrop-kaiju {
-  @extend %release-background;
-  &::before {
-    background-image: url("/images/backgrounds/caltrop_kaiju_background.png");
-    background-repeat: repeat-x;
-    background-position: bottom center;
-    background-size: auto 60vh;
-  }
+.page--releases--caltrop-kaiju::before {
+  background-image: url("/images/backgrounds/caltrop_kaiju_background.png");
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  background-size: auto 60vh;
 }

@@ -4,6 +4,7 @@ blocks:
   - type: items
     collection: news
     horizontal: true
+    image_aspect_ratio: "5/4"
     intro_content: |-
       ## Recent Posts
 
