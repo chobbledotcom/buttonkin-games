@@ -45,9 +45,8 @@ blocks:
         label: Print edition
 
   - type: buy-options
-    header_intro: |-
+    intro_content: |-
       ## Buy Direct
-    header_align: center
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/drama_llamas_llama_warrior.jpeg

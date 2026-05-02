@@ -45,7 +45,6 @@ blocks:
       to add flavour to your game.**
 
   - type: features
-    heading_level: 4
     items:
       - title: Detailed Setting & Backstory Options
         description: |

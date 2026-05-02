@@ -6,9 +6,8 @@ blocks:
     filter:
       property: data.featured
       equals: true
-    header_intro: |-
+    intro_content: |-
       ## Featured Releases
 
       Flagship games from Button Kin.
-    header_align: center
 ---

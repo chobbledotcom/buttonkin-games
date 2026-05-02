@@ -94,8 +94,9 @@
   @extend %page-background;
 
   &::before {
-    background-image: url("/images/page-backgrounds/fur.svg");
-    background-size: 600px 600px;
+    background-image: url("/images/backgrounds/drama_llamas_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -103,8 +104,8 @@
   @extend %page-background;
 
   &::before {
-    background-image: url("/images/page-backgrounds/squiggles.svg");
-    background-size: 400px 400px;
+    background-image: url("/images/backgrounds/judes_world_background.png");
+    background-size: 500px 500px;
   }
 }
 
@@ -112,8 +113,8 @@
   @extend %page-background;
 
   &::before {
-    background-image: url("/images/page-backgrounds/bees.svg");
-    background-size: 500px 500px;
+    background-image: url("/images/backgrounds/bumbling_background.png");
+    background-size: 500px auto;
   }
 }
 
@@ -121,9 +122,9 @@
   @extend %page-background;
 
   &::before {
-    background-image: url("/images/page-backgrounds/cityscape.svg");
+    background-image: url("/images/backgrounds/caltrop_kaiju_background.png");
     background-repeat: repeat-x;
     background-position: bottom center;
-    background-size: 800px auto;
+    background-size: auto 60vh;
   }
 }

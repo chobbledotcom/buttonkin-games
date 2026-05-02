@@ -4,9 +4,8 @@ blocks:
   - type: items
     collection: news
     horizontal: true
-    header_intro: |-
+    intro_content: |-
       ## Recent Posts
 
       The latest from the Button Kin Times newsletter.
-    header_align: center
 ---

@@ -13,7 +13,7 @@ blocks:
     lead: Press kits, reviews, and interviews about Button Kin Games.
 
   - type: icon-links
-    intro: |
+    intro_content: |
       ## Press Kits
 
       Logos, screenshots, factsheets, and press contacts for Button Kin's flagship releases.

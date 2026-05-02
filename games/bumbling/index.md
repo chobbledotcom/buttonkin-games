@@ -58,9 +58,8 @@ blocks:
         label: Print Edition
 
   - type: features
-    header_intro: |-
+    intro_content: |-
       ## Reviews
-    heading_level: 4
     items:
       - title: sinopiasaur
         description: "\"This is a sweet and relaxing way to pass a couple hours of a summer afternoon.\""
@@ -69,9 +68,8 @@ blocks:
           "A simple little bee RPG that thankfully doesn't make any references to that b—dy film."
 
   - type: buy-options
-    header_intro: |-
+    intro_content: |-
       ## Buy Direct
-    header_align: center
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/bumbling_booklet.jpeg

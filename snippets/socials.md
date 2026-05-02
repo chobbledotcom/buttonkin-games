@@ -2,7 +2,7 @@
 name: Socials
 blocks:
   - type: icon-links
-    intro: |
+    intro_content: |
       ## Find Button Kin Online
     items:
       - icon: "hugeicons:mail-01"

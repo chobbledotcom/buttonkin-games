@@ -68,9 +68,8 @@ blocks:
         label: Print Edition
 
   - type: features
-    header_intro: |-
+    intro_content: |-
       ## Reviews
-    heading_level: 4
     items:
       - title: Panne
         description: "\"This was such a bonkers-fun game! It's all about going full ridiculous and playing the shadow game behind the scenes. But the game itself encourages communication between the players so that it's reframed as collaboratively creating drama rather than a PVP type game.\""
@@ -78,9 +77,8 @@ blocks:
         description: "\"When I played Drama Llamas with my buddies I got the giggles so bad that I couldn't talk. It's really easy to play and leaves a lot of room for improvisation and silliness, although there's a clear structure to gee things along too. Some of the artwork is BEAU-TI-FUL! A++ would recommend!\""
 
   - type: buy-options
-    header_intro: |-
+    intro_content: |-
       ## Buy Direct
-    header_align: center
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/drama_llamas.jpeg
@@ -100,7 +98,7 @@ blocks:
         link: https://buy.stripe.com/9B64gz9CjbcCdUQby07N605
 
   - type: downloads
-    intro: |
+    intro_content: |
       ## Downloads
     items:
       - file: /assets/files/drama_llamas_character_sheet.pdf
