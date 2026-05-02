@@ -19,7 +19,9 @@
   // --- Palette ----------------------------------------------------------------
   --color-bg: #f6d9e1;                   // light pink — page background
   --body-background: #f6d9e1;
-  --body-background-alt: #efc9d3;        // slightly darker pink for alt sections
+  // Translucent so the page background image (dice corners or game artwork)
+  // shows through alternating sections.
+  --body-background-alt: rgba(239, 201, 211, 0.55);
   --color-card-bg: #ffffff;              // white cards / panels
   --color-text: #111111;
   --color-text-muted: #666666;
@@ -68,59 +70,90 @@
 }
 
 // =============================================================================
-// PER-PAGE BACKGROUNDS
+// PAGE BACKGROUNDS
 // =============================================================================
-// Each game's release page gets a themed background image at low opacity,
-// painted behind the content via a fixed pseudo-element so it stays in place
-// while scrolling.
+// Every page gets a fixed, low-opacity background painted behind the content
+// via two pseudo-elements on body. The default is the dice-corner artwork
+// from the old site, mirrored bottom-left and bottom-right. The four featured
+// release pages override `background-image` (and any positioning) on both
+// pseudo-elements to swap in their own themed artwork.
+//
+// The page-bg colour lives on `html` and body itself is transparent so the
+// fixed pseudo-elements (z-index: -1) actually show through.
 // =============================================================================
 
-%page-background {
+html {
+  background: var(--body-background);
+}
+
+body.design-system {
+  background: transparent;
+}
+
+body {
   position: relative;
 
-  &::before {
+  &::before,
+  &::after {
     content: "";
     position: fixed;
     inset: 0;
     z-index: -1;
     pointer-events: none;
-    background-repeat: repeat;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 40vmin auto;
+    background-image: url("/images/brand/dice-corner.png");
     opacity: 0.18;
+  }
+
+  &::after {
+    background-position: bottom right;
+    transform: scaleX(-1);
   }
 }
 
-.page--releases--drama-llamas {
-  @extend %page-background;
+// --- Per-release overrides --------------------------------------------------
+// These pages get a custom themed image instead of the dice. The ::after
+// pseudo-element is hidden because each themed image carries its own pattern.
 
+%release-background {
+  &::before {
+    background-position: center;
+    background-size: cover;
+  }
+  &::after { display: none; }
+}
+
+.page--releases--drama-llamas {
+  @extend %release-background;
   &::before {
     background-image: url("/images/backgrounds/drama_llamas_background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 
 .page--releases--judes-world {
-  @extend %page-background;
-
+  @extend %release-background;
   &::before {
     background-image: url("/images/backgrounds/judes_world_background.png");
+    background-repeat: repeat;
     background-size: 500px 500px;
+    opacity: 0.10;
   }
 }
 
 .page--releases--bumbling {
-  @extend %page-background;
-
+  @extend %release-background;
   &::before {
     background-image: url("/images/backgrounds/bumbling_background.png");
+    background-repeat: repeat;
     background-size: 500px auto;
+    opacity: 0.10;
   }
 }
 
 .page--releases--caltrop-kaiju {
-  @extend %page-background;
-
+  @extend %release-background;
   &::before {
     background-image: url("/images/backgrounds/caltrop_kaiju_background.png");
     background-repeat: repeat-x;
