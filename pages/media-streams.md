@@ -19,7 +19,7 @@ blocks:
       PLACEHOLDER TEXT
 
   - type: features
-    header_intro: |-
+    intro_content: |-
       ## Notable Streams
     items:
       - title: PLACEHOLDER TEXT

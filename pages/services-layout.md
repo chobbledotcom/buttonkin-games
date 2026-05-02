@@ -19,7 +19,7 @@ blocks:
       PLACEHOLDER TEXT
 
   - type: features
-    header_intro: |-
+    intro_content: |-
       ## What's Included
     items:
       - title: PLACEHOLDER TEXT

@@ -26,7 +26,7 @@ blocks:
         description: Press kits, interviews, and reviews.
 
   - type: icon-links
-    intro: |
+    intro_content: |
       ## Jump to a section
     items:
       - icon: "hugeicons:youtube"

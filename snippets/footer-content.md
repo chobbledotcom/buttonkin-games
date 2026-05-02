@@ -16,11 +16,10 @@ blocks:
     reference: recent-blog-posts
 
   - type: contact-form
-    header_intro: |-
+    intro_content: |-
       ## Contact Button Kin
 
       Drop us a line — we love hearing from players, playtesters, and fellow designers.
-    header_align: center
     content: |
       Get in touch about our games, upcoming events, writing commissions, or layout services.
 

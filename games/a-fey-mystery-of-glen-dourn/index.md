@@ -60,9 +60,8 @@ blocks:
         label: Play time
 
   - type: features
-    header_intro: |-
+    intro_content: |-
       ## Reviews
-    heading_level: 4
     items:
       - title: Andrés L.
         description: |

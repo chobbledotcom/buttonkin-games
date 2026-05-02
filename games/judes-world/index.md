@@ -75,9 +75,8 @@ blocks:
         label: Print Edition
 
   - type: buy-options
-    header_intro: |-
+    intro_content: |-
       ## Buy Direct
-    header_align: center
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/judes_world_zine.jpeg
