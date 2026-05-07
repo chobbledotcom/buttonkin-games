@@ -5,6 +5,15 @@ event_location: PLACEHOLDER TEXT
 event_date: 2026-12-01
 meta_title: PLACEHOLDER TEXT
 meta_description: PLACEHOLDER TEXT
----
+blocks:
+  - type: event-header
 
-PLACEHOLDER TEXT — description of this upcoming convention appearance goes here.
+  - type: markdown
+    content: |
+      PLACEHOLDER TEXT — description of this upcoming convention appearance goes here.
+
+  - type: link-button
+    text: All events
+    href: /events/
+    variant: secondary
+---
