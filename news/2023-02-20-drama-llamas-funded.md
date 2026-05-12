@@ -1,5 +1,5 @@
 ---
-title: Drama Llamas is Funded!
+name: Drama Llamas is Funded!
 subtitle: claps hooves in excitement
 metaTitle: "Drama Llamas Kickstarter Successfully Funded with Stretch Goals"
 tags:

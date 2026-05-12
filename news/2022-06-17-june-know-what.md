@@ -1,5 +1,5 @@
 ---
-title: June know what?
+name: June know what?
 subtitle: Drama Llamas, Tillvayle Stream, Orbital Blues, and Homebrew Tarot Cards
 metaTitle: "UK TTRPG Conventions, Drama Llamas Playtest, and Homebrew Tarot Cards"
 tags:

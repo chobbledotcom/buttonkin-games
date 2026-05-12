@@ -1,5 +1,5 @@
 ---
-title: Flora and Llama
+name: Flora and Llama
 subtitle: A flowery Drama Llamas one-shot for 3-5 players and a Producer
 order: 8
 system: Drama Llamas
@@ -10,7 +10,7 @@ redirect_from:
   - /flora-and-llama/
 blocks:
   - type: hero
-    title: Flora and Llama
+    name: Flora and Llama
     badge: Drama Llamas one-shot
     lead: >-
       In Flora and Llama our cutthroat camelid contestants compete in a series
@@ -50,19 +50,19 @@ blocks:
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/drama_llamas_flora_and_llamas.jpeg
-        title: Flora and Llama
+        name: Flora and Llama
         subtitle: Postcard one-shot
         price: "3"
         link: https://buy.stripe.com/cNieVdaGn80q040eKc7N607
 
   - type: iframe-embed
     src: https://itch.io/embed/3022975?link_color=f7c877
-    title: Flora and Llama on Itch.io
+    name: Flora and Llama on Itch.io
     height: 167
     max_width: 552px
 
   - type: cta
-    title: Get Flora and Llama
+    content: "## Get Flora and Llama"
     button:
       text: Buy on Itch.io
       href: https://buttonkin.itch.io/flora-and-llama

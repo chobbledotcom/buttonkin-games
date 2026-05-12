@@ -1,5 +1,5 @@
 ---
-title: Beach Bar-a-Llama
+name: Beach Bar-a-Llama
 subtitle: A sunsoaked Drama Llamas one-shot for 3-5 players and a Producer
 order: 7
 system: Drama Llamas
@@ -10,7 +10,7 @@ redirect_from:
   - /beach-bar-a-llama/
 blocks:
   - type: hero
-    title: Beach Bar-a-Llama
+    name: Beach Bar-a-Llama
     badge: Drama Llamas one-shot
     lead: >-
       In Beach Bar-a-Llamas our cutthroat camelid contestants compete to build
@@ -51,19 +51,19 @@ blocks:
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/drama_llamas_beach_bar_a_llama.jpeg
-        title: Beach Bar-a-Llama
+        name: Beach Bar-a-Llama
         subtitle: Postcard one-shot
         price: "3"
         link: https://buy.stripe.com/14AdR9eWDbcCeYUby07N606
 
   - type: iframe-embed
     src: https://itch.io/embed/3022978?link_color=f7c877
-    title: Beach Bar-a-Llama on Itch.io
+    name: Beach Bar-a-Llama on Itch.io
     height: 167
     max_width: 552px
 
   - type: cta
-    title: Get Beach Bar-a-Llama
+    content: "## Get Beach Bar-a-Llama"
     button:
       text: Buy on Itch.io
       href: https://buttonkin.itch.io/beach-bar-a-llama

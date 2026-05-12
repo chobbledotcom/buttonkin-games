@@ -1,5 +1,5 @@
 ---
-title: Jude's World
+name: Jude's World
 subtitle: A plucky preteen struggles to reunite their separating parents
 order: 1
 featured: true
@@ -15,7 +15,7 @@ redirect_from:
   - /judes-world/
 blocks:
   - type: hero
-    title: Jude's World
+    name: Jude's World
     badge: Latest Release
     lead: >-
       Take on the role of 12-year-old Jude, who's desperate to grow up and
@@ -40,8 +40,9 @@ blocks:
         caption: A page from the Jude's World zine
 
   - type: split-image
-    title: About Jude's World
     content: |
+      ## About Jude's World
+
       Steer your Jude through a complicated time in their young life and
       unleash your inner grumpy preteen (just for a little while!).
 
@@ -53,8 +54,9 @@ blocks:
     figure_alt: A page from the Jude's World zine
 
   - type: split-video
-    title: See it in play
     content: |
+      ## See it in play
+
       Watch Kat the Loremistress play through Jude's World.
     figure_video_id: aagYwQLZjcY
     figure_alt: Jude's World play through by Kat the Loremistress
@@ -62,7 +64,7 @@ blocks:
 
   - type: callout
     variant: info
-    title: Suitable for
+    name: Suitable for
     content: A single player aged 15 and up.
 
   - type: stats
@@ -80,30 +82,32 @@ blocks:
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/judes_world_zine.jpeg
-        title: Jude's World
+        name: Jude's World
         subtitle: Zine
         price: "10"
         link: https://buy.stripe.com/cNi00j6q74OecQM0Tm7N602
       - image: src/images/products/judes_world_workbook.jpeg
-        title: Jude's World Workbook
+        name: Jude's World Workbook
         subtitle: Companion workbook
         price: "5"
         link: https://buy.stripe.com/bJe3cvbKra8y4kg6dG7N603
       - image: src/images/products/judes_world_bundle.jpeg
-        title: Jude's World Bundle
+        name: Jude's World Bundle
         subtitle: Zine + workbook
         price: "13"
         link: https://buy.stripe.com/fZuaEX15N6WmeYU8lO7N604
 
   - type: iframe-embed
     src: https://itch.io/embed/3083432?link_color=f7c877
-    title: Jude's World on Itch.io
+    name: Jude's World on Itch.io
     height: 167
     max_width: 552px
 
   - type: cta
-    title: Pick up Jude's World
-    description: Zines, workbooks, and bundles available via Itch.io.
+    content: |-
+      ## Pick up Jude's World
+
+      Zines, workbooks, and bundles available via Itch.io.
     button:
       text: Buy on Itch.io
       href: https://buttonkin.itch.io/judes-world

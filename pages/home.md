@@ -1,4 +1,5 @@
 ---
+name: Button Kin Games
 permalink: /
 layout: design-system-base.html
 meta_title: "Button Kin Games | Indie TTRPG Studio | Manchester, UK"
@@ -14,7 +15,7 @@ blocks:
   - type: hero
     class: gradient
     badge: Out Now
-    title: "Jude's World"
+    name: "Jude's World"
     lead: >-
       A plucky preteen struggles to reunite their separating parents in this
       solo, tarot-based journaling TTRPG. Take on the role of 12-year-old Jude
@@ -31,8 +32,9 @@ blocks:
 
   # Intro — split image with a photo of Yvris
   - type: split-image
-    title: A One-Woman Games Studio from Yvris Burke
     content: |
+      ## A One-Woman Games Studio from Yvris Burke
+
       Established in 2020 by game designer, writer, and web developer Yvris
       Burke, Button Kin Games is home to whimsical and strange TTRPGs with
       unusual themes, and a smattering of D&D 5e content.

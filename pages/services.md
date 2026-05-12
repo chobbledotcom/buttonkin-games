@@ -1,4 +1,5 @@
 ---
+name: Services
 permalink: /services/
 layout: design-system-base.html
 meta_title: "Services | Button Kin Games"
@@ -16,10 +17,10 @@ blocks:
   - type: features
     items:
       - icon: "hugeicons:image-02"
-        title: Layout
+        name: Layout
         description: PLACEHOLDER TEXT
       - icon: "hugeicons:note-edit"
-        title: Writing
+        name: Writing
         description: PLACEHOLDER TEXT
 
   - type: link-button

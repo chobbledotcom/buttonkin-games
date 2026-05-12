@@ -1,5 +1,5 @@
 ---
-title: Caltrop Kaiju
+name: Caltrop Kaiju
 subtitle: A monstrously fun and fast-paced disaster TTRPG
 order: 4
 meta_title: "Caltrop Kaiju | A monstrously fun and fast-paced disaster TTRPG"
@@ -10,7 +10,7 @@ redirect_from:
   - /caltrop-kaiju/
 blocks:
   - type: hero
-    title: Caltrop Kaiju
+    name: Caltrop Kaiju
     badge: Solo TTRPG
     lead: >-
       A gigantic, rampaging kaiju has shown up in your home town and is
@@ -28,8 +28,9 @@ blocks:
         size: lg
 
   - type: split-image
-    title: Ten-minute puzzle or journaling game
     content: |
+      ## Ten-minute puzzle or journaling game
+
       This is a solo TTRPG which can be played in ten minutes as a tense,
       tactical puzzle, or in a couple of hours as a journaling / story game.
     figure_src: src/games/caltrop-kaiju/kaiju_map.png
@@ -37,7 +38,7 @@ blocks:
 
   - type: callout
     variant: info
-    title: Suitable for
+    name: Suitable for
     content: A single player aged 10 and up. Younger children can play with a little guidance.
 
   - type: stats
@@ -55,20 +56,22 @@ blocks:
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/caltrop_kaiju_booklet.jpeg
-        title: Caltrop Kaiju
+        name: Caltrop Kaiju
         subtitle: Print edition
         price: "4"
         link: https://buy.stripe.com/5kQ9AT4hZ0xY4kgfOg7N60c
 
   - type: iframe-embed
     src: https://itch.io/embed/1506445?link_color=f7c877
-    title: Caltrop Kaiju on Itch.io
+    name: Caltrop Kaiju on Itch.io
     height: 167
     max_width: 552px
 
   - type: cta
-    title: Get Caltrop Kaiju
-    description: Available in print and digital from Itch.io and DrivethruRPG.
+    content: |-
+      ## Get Caltrop Kaiju
+
+      Available in print and digital from Itch.io and DrivethruRPG.
     button:
       text: Buy on Itch.io
       href: https://buttonkin.itch.io/caltrop-kaiju

@@ -1,5 +1,5 @@
 ---
-title: The Tillvayle Committee
+name: The Tillvayle Committee
 subtitle: A small-town murder mystery with an unusual villain
 order: 14
 system: D&D 5e
@@ -11,7 +11,7 @@ redirect_from:
   - /the-tillvayle-committee/
 blocks:
   - type: hero
-    title: The Tillvayle Committee
+    name: The Tillvayle Committee
     badge: D&D 5e Adventure
     lead: >-
       What if the monsters got old enough to retire? Where would they go to
@@ -51,12 +51,12 @@ blocks:
 
   - type: iframe-embed
     src: https://itch.io/embed/1460855?link_color=f7c877
-    title: The Tillvayle Committee on Itch.io
+    name: The Tillvayle Committee on Itch.io
     height: 167
     max_width: 552px
 
   - type: cta
-    title: Get The Tillvayle Committee
+    content: "## Get The Tillvayle Committee"
     button:
       text: Buy on Itch.io
       href: https://buttonkin.itch.io/the-tillvayle-committee

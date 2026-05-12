@@ -1,4 +1,5 @@
 ---
+name: Contact
 permalink: /contact/
 layout: design-system-base.html
 meta_title: "Contact Button Kin Games"
@@ -8,7 +9,7 @@ eleventyNavigation:
   order: 8
 blocks:
   - type: hero
-    title: Contact
+    name: Contact
     lead: >-
       Drop us a line about games, events, playtests, writing commissions, or
       layout services.

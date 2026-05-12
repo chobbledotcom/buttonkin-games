@@ -1,5 +1,5 @@
 ---
-title: A Fey Mystery of Glen Dourn
+name: A Fey Mystery of Glen Dourn
 subtitle: Our best-selling fey haunted-house mystery
 order: 15
 featured: true
@@ -12,7 +12,7 @@ redirect_from:
   - /a-fey-mystery-of-glen-dourn/
 blocks:
   - type: hero
-    title: A Fey Mystery of Glen Dourn
+    name: A Fey Mystery of Glen Dourn
     badge: D&D 5e Adventure
     lead: >-
       A haunted house, a missing person, a hint of wild fey magic, and an
@@ -24,8 +24,9 @@ blocks:
         size: lg
 
   - type: split-image
-    title: Into the Valley
     content: |
+      ## Into the Valley
+
       In Glen Dourn folk still hold true to the old ways — a dense and layered
       folklore of monsters and tales to frighten children. It is to this remote
       valley that a king bids you make haste to seek out signs of his beloved
@@ -39,8 +40,9 @@ blocks:
     figure_alt: A portrait from the adventure
 
   - type: split-image
-    title: Bargains in Pain
     content: |
+      ## Bargains in Pain
+
       The Dread Coven will not give up what they know so easily, although they
       will strike a bargain if you're willing to pay the price in pain.
 
@@ -63,18 +65,18 @@ blocks:
     intro_content: |-
       ## Reviews
     items:
-      - title: Andrés L.
+      - name: Andrés L.
         description: |
           "A Fey Mystery of Glen Dourn is what it promises to be. A creepy adventure on an abandoned house with vines and thorns all over the place… The author managed to write in a really evocative and flavourful manner without being too complex."
 
   - type: callout
     variant: warning
     icon: "hugeicons:alert-02"
-    title: Content warning
+    name: Content warning
     content: Witches, ghosts, rats, body parts, death.
 
   - type: cta
-    title: Pick up A Fey Mystery of Glen Dourn
+    content: "## Pick up A Fey Mystery of Glen Dourn"
     button:
       text: Buy on DM's Guild
       href: https://www.dmsguild.com/product/345735/A-Fey-Mystery-of-Glen-Dourn

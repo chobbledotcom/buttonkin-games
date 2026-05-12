@@ -1,4 +1,5 @@
 ---
+name: Streams
 permalink: /media/streams/
 layout: design-system-base.html
 meta_title: "Streams | Button Kin Games"
@@ -9,7 +10,7 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: hero
-    title: Streams
+    name: Streams
     lead: PLACEHOLDER TEXT
 
   - type: section-header
@@ -22,8 +23,8 @@ blocks:
     intro_content: |-
       ## Notable Streams
     items:
-      - title: PLACEHOLDER TEXT
+      - name: PLACEHOLDER TEXT
         description: PLACEHOLDER TEXT
-      - title: PLACEHOLDER TEXT
+      - name: PLACEHOLDER TEXT
         description: PLACEHOLDER TEXT
 ---

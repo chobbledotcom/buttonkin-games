@@ -1,5 +1,5 @@
 ---
-title: The Lyric Grove
+name: The Lyric Grove
 subtitle: Part of the Bardic Origins series
 order: 11
 system: D&D 5e
@@ -10,7 +10,7 @@ redirect_from:
   - /bardic-origins-the-lyric-grove/
 blocks:
   - type: hero
-    title: The Lyric Grove
+    name: The Lyric Grove
     badge: Bardic Origins · D&D 5e
     lead: >-
       Deep in the heart of one of Sylvanus's great forests lies the Lyric
@@ -46,10 +46,10 @@ blocks:
 
   - type: features
     items:
-      - title: Detailed Setting & Backstory Options
+      - name: Detailed Setting & Backstory Options
         description: |
           Key NPCs, sights and features, and history for the Lyric Grove — all ready to slot into your world. Includes notes on how initiates distinguish themselves from the bawdy tavern bards out in civilisation.
-      - title: A Missing Scout
+      - name: A Missing Scout
         description: |
           Our heroes find the grove in mourning: one of its intrepid scouts has gone out on an errand and hasn't returned. She should have been back days ago. Synleoth offers a reward of magical items in return for news of her fate.
 
@@ -63,7 +63,7 @@ blocks:
         label: Play time
 
   - type: cta
-    title: Pick up The Lyric Grove
+    content: "## Pick up The Lyric Grove"
     button:
       text: Buy on DM's Guild
       href: https://www.dmsguild.com/product/387243/The-Lyric-Grove

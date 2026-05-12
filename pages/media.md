@@ -1,4 +1,5 @@
 ---
+name: Media
 permalink: /media/
 layout: design-system-base.html
 meta_title: "Media | Button Kin Games"
@@ -16,13 +17,13 @@ blocks:
   - type: features
     items:
       - icon: "hugeicons:youtube"
-        title: Streams
+        name: Streams
         description: Live streams and convention panels featuring Button Kin games.
       - icon: "hugeicons:image-02"
-        title: Playthroughs
+        name: Playthroughs
         description: Actual-play recordings and tutorials from the community.
       - icon: "hugeicons:book-02"
-        title: Press
+        name: Press
         description: Press kits, interviews, and reviews.
 
   - type: icon-links

@@ -1,4 +1,5 @@
 ---
+name: Blog
 permalink: /blog/
 layout: design-system-base.html
 header_text: Blog

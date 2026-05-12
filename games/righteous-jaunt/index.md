@@ -1,5 +1,5 @@
 ---
-title: Righteous Jaunt
+name: Righteous Jaunt
 subtitle: A coin-toss based RPG to play on a walk
 order: 5
 meta_title: "Righteous Jaunt | A family TTRPG designed to be played while walking"
@@ -9,7 +9,7 @@ redirect_from:
   - /righteous-jaunt/
 blocks:
   - type: hero
-    title: Righteous Jaunt
+    name: Righteous Jaunt
     badge: Walking RPG
     lead: >-
       The forces of darkness are rallying, preparing to end all hope. You know
@@ -38,7 +38,7 @@ blocks:
 
   - type: callout
     variant: info
-    title: Suitable for
+    name: Suitable for
     content: 2–4 players aged 6 and up.
 
   - type: stats
@@ -56,20 +56,22 @@ blocks:
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/righteous_jaunt_booklet.jpeg
-        title: Righteous Jaunt
+        name: Righteous Jaunt
         subtitle: Print edition
         price: "4"
         link: https://buy.stripe.com/28EbJ13dVa8ydUQatW7N60a
 
   - type: iframe-embed
     src: https://itch.io/embed/1422835?link_color=f7c877
-    title: Righteous Jaunt on Itch.io
+    name: Righteous Jaunt on Itch.io
     height: 167
     max_width: 552px
 
   - type: cta
-    title: Get walking
-    description: Available in print and digital from Itch.io.
+    content: |-
+      ## Get walking
+
+      Available in print and digital from Itch.io.
     button:
       text: Buy on Itch.io
       href: https://buttonkin.itch.io/righteous-jaunt

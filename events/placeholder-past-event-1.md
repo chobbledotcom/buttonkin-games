@@ -1,5 +1,5 @@
 ---
-title: PLACEHOLDER TEXT — Past Event
+name: PLACEHOLDER TEXT — Past Event
 subtitle: PLACEHOLDER TEXT
 event_location: PLACEHOLDER TEXT
 event_date: 2024-09-01

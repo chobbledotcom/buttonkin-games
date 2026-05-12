@@ -1,4 +1,5 @@
 ---
+name: Layout Services
 permalink: /services/layout/
 layout: design-system-base.html
 meta_title: "Layout Services | Button Kin Games"
@@ -9,7 +10,7 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: hero
-    title: Layout Services
+    name: Layout Services
     lead: PLACEHOLDER TEXT
 
   - type: section-header
@@ -22,16 +23,18 @@ blocks:
     intro_content: |-
       ## What's Included
     items:
-      - title: PLACEHOLDER TEXT
+      - name: PLACEHOLDER TEXT
         description: PLACEHOLDER TEXT
-      - title: PLACEHOLDER TEXT
+      - name: PLACEHOLDER TEXT
         description: PLACEHOLDER TEXT
-      - title: PLACEHOLDER TEXT
+      - name: PLACEHOLDER TEXT
         description: PLACEHOLDER TEXT
 
   - type: cta
-    title: Get a quote for your layout project
-    description: PLACEHOLDER TEXT
+    content: |-
+      ## Get a quote for your layout project
+
+      PLACEHOLDER TEXT
     button:
       text: Contact Yvris
       href: /contact/

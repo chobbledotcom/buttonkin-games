@@ -1,5 +1,5 @@
 ---
-title: PLACEHOLDER TEXT — Online Game Session
+name: PLACEHOLDER TEXT — Online Game Session
 subtitle: PLACEHOLDER TEXT
 event_location: Online
 event_date: 2026-08-15

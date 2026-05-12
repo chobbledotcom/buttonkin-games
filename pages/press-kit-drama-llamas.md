@@ -1,4 +1,5 @@
 ---
+name: Drama Llamas Press Kit
 permalink: /press-kits/drama-llamas/
 layout: design-system-base.html
 meta_title: "Drama Llamas Press Kit | Button Kin Games"
@@ -7,7 +8,7 @@ redirect_from:
   - /drama-llamas-press-kit/
 blocks:
   - type: hero
-    title: Drama Llamas Press Kit
+    name: Drama Llamas Press Kit
     buttons:
       - text: Back to Press
         href: /media/press/
