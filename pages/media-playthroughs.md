@@ -1,4 +1,5 @@
 ---
+name: Playthroughs
 permalink: /media/playthroughs/
 layout: design-system-base.html
 meta_title: "Playthroughs | Button Kin Games"
@@ -9,7 +10,7 @@ eleventyNavigation:
   order: 2
 blocks:
   - type: hero
-    title: Playthroughs
+    name: Playthroughs
     lead: PLACEHOLDER TEXT
 
   - type: section-header
@@ -19,15 +20,17 @@ blocks:
       PLACEHOLDER TEXT
 
   - type: split-video
-    title: Drama Llamas Playthrough
     content: |
+      ## Drama Llamas Playthrough
+
       A full session of Drama Llamas, streamed on YouTube.
     figure_video_id: LsuIGM1oHMw
     figure_alt: Drama Llamas TTRPG Gameplay
 
   - type: split-video
-    title: Jude's World Playthrough
     content: |
+      ## Jude's World Playthrough
+
       Kat the Loremistress plays Jude's World solo.
     figure_video_id: aagYwQLZjcY
     figure_alt: Jude's World play through by Kat the Loremistress

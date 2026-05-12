@@ -1,5 +1,5 @@
 ---
-title: Llama Warrior
+name: Llama Warrior
 subtitle: A mighty Drama Llamas one-shot for 3-5 players and a Producer
 order: 9
 system: Drama Llamas
@@ -10,7 +10,7 @@ redirect_from:
   - /llama-warrior/
 blocks:
   - type: hero
-    title: Llama Warrior
+    name: Llama Warrior
     badge: Drama Llamas one-shot
     lead: >-
       In Llama Warrior our cutthroat camelid contestants compete in a series
@@ -50,19 +50,19 @@ blocks:
     image_aspect_ratio: "1/1"
     items:
       - image: src/images/products/drama_llamas_llama_warrior.jpeg
-        title: Llama Warrior
+        name: Llama Warrior
         subtitle: Postcard one-shot
         price: "3"
         link: https://buy.stripe.com/28E4gz29R1C2cQMfOg7N608
 
   - type: iframe-embed
     src: https://itch.io/embed/3022990?link_color=f7c877
-    title: Llama Warrior on Itch.io
+    name: Llama Warrior on Itch.io
     height: 167
     max_width: 552px
 
   - type: cta
-    title: Get Llama Warrior
+    content: "## Get Llama Warrior"
     button:
       text: Buy on Itch.io
       href: https://buttonkin.itch.io/llama-warrior

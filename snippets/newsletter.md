@@ -13,7 +13,7 @@ blocks:
 
   - type: iframe-embed
     src: https://buttondown.email/button_kin_games?as_embed=true
-    title: Subscribe to Button Kin Games newsletter
+    name: Subscribe to Button Kin Games newsletter
     height: 150
     max_width: 560px
     sandbox: allow-scripts allow-same-origin allow-forms

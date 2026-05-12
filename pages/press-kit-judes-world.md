@@ -1,4 +1,5 @@
 ---
+name: Jude's World Press Kit
 permalink: /press-kits/judes-world/
 layout: design-system-base.html
 meta_title: "Jude's World Press Kit | Button Kin Games"
@@ -7,7 +8,7 @@ redirect_from:
   - /judes-world-press-kit/
 blocks:
   - type: hero
-    title: Jude's World Press Kit
+    name: Jude's World Press Kit
     buttons:
       - text: Back to Press
         href: /media/press/

@@ -1,5 +1,5 @@
 ---
-title: Red Gold
+name: Red Gold
 subtitle: A pirates-and-ecology themed one-shot adventure, great for new players
 order: 13
 system: D&D 5e
@@ -10,7 +10,7 @@ redirect_from:
   - /red-gold/
 blocks:
   - type: hero
-    title: Red Gold
+    name: Red Gold
     badge: D&D 5e Adventure
     lead: >-
       On the world's first offshore rig Captain Seaslick and his crew are
@@ -24,8 +24,9 @@ blocks:
         size: lg
 
   - type: split-image
-    title: Cultists on the Rig
     content: |
+      ## Cultists on the Rig
+
       Dragon cultists have infiltrated the rig and are trying to steal a stash
       of the precious essence for their rites. In their eagerness they've
       magically sped the drill up to a perilous rate.
@@ -59,18 +60,18 @@ blocks:
     intro_content: |-
       ## Reviews
     items:
-      - title: Sam H.
+      - name: Sam H.
         description: |
           "Perfect for an 'Eberron-esque' setting where magic is everywhere, Red Gold is one of the more intriguing scenarios that I've seen… very easy to pick up and play with very little preparation."
 
   - type: callout
     variant: warning
     icon: "hugeicons:alert-02"
-    title: Content warning
+    name: Content warning
     content: Environmental disaster.
 
   - type: cta
-    title: Pick up Red Gold
+    content: "## Pick up Red Gold"
     button:
       text: Buy on DM's Guild
       href: https://www.dmsguild.com/product/338797/Red-Gold

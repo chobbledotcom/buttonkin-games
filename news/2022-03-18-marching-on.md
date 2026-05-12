@@ -1,5 +1,5 @@
 ---
-title: Marching On
+name: Marching On
 subtitle: Righteous Jaunt, MotW, The Stygian Library, and TTRPGs for good causes
 metaTitle: "Indie TTRPG News: Righteous Jaunt Updates, Monster of the Week Mystery & Charity Game Bundles"
 tags:

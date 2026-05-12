@@ -1,5 +1,5 @@
 ---
-title: The Storied Bastion
+name: The Storied Bastion
 subtitle: Part of the Bardic Origins series
 order: 10
 system: D&D 5e
@@ -10,7 +10,7 @@ redirect_from:
   - /bardic-origins-the-storied-bastion/
 blocks:
   - type: hero
-    title: The Storied Bastion
+    name: The Storied Bastion
     badge: Bardic Origins · D&D 5e
     lead: >-
       Deep in the wilderness atop a 1,000-foot-high cliff stands an institution
@@ -37,10 +37,10 @@ blocks:
 
   - type: features
     items:
-      - title: Detailed Setting & Backstory Options
+      - name: Detailed Setting & Backstory Options
         description: |
           Key NPCs, sights and features, and history for the Storied Bastion — all ready to slot into your world. Includes notes on how a bard from the bastion distinguishes themselves from the common breed of troubadour.
-      - title: Shibelurn's Wrath
+      - name: Shibelurn's Wrath
         description: |
           A tale of bardic misadventure leading a party to the Storied Bastion. A black dragon wants a song written about her removed from the anthologists' collection and destroyed — and she's willing to tear the whole place down to have her way.
 
@@ -54,7 +54,7 @@ blocks:
         label: Play time
 
   - type: cta
-    title: Pick up The Storied Bastion
+    content: "## Pick up The Storied Bastion"
     button:
       text: Buy on DM's Guild
       href: https://www.dmsguild.com/product/387241/The-Storied-Bastion

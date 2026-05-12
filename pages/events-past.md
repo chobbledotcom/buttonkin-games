@@ -1,4 +1,5 @@
 ---
+name: Past Events
 permalink: /events/past/
 layout: design-system-base.html
 meta_title: "Past Events | Button Kin Games"

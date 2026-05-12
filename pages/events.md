@@ -1,4 +1,5 @@
 ---
+name: Events
 permalink: /events/
 layout: design-system-base.html
 meta_title: "Events | Button Kin Games"
@@ -28,8 +29,10 @@ blocks:
     horizontal: true
 
   - type: cta
-    title: Want to host Button Kin at your event?
-    description: PLACEHOLDER TEXT
+    content: |-
+      ## Want to host Button Kin at your event?
+
+      PLACEHOLDER TEXT
     button:
       text: Get in touch
       href: /contact/

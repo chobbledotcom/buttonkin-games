@@ -1,5 +1,5 @@
 ---
-title: Which one July?
+name: Which one July?
 subtitle: Odd Jobs Review, Drama Llamas, and a Public Transport Freebie
 metaTitle: "Drama Llamas Playtesting, Odd Jobs TTRPG Review, and Convention Prep"
 tags:

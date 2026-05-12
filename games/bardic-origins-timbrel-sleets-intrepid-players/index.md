@@ -1,5 +1,5 @@
 ---
-title: Timbrel Sleet's Intrepid Players
+name: Timbrel Sleet's Intrepid Players
 subtitle: Part of the Bardic Origins series
 order: 12
 system: D&D 5e
@@ -10,7 +10,7 @@ redirect_from:
   - /bardic-origins-timbrel-sleets-intrepid-players/
 blocks:
   - type: hero
-    title: Timbrel Sleet's Intrepid Players
+    name: Timbrel Sleet's Intrepid Players
     badge: Bardic Origins · D&D 5e
     lead: >-
       Visit any of the right small villages or peaceful hamlets on the right
@@ -45,10 +45,10 @@ blocks:
 
   - type: features
     items:
-      - title: Detailed Setting & Backstory Options
+      - name: Detailed Setting & Backstory Options
         description: |
           Key NPCs, sights and features, and history for Timbrel Sleet's Intrepid Players — all ready to slot into your world. Includes notes on how the players distinguish themselves from bards of any other stripe.
-      - title: Timbrel's Lucky Coin
+      - name: Timbrel's Lucky Coin
         description: |
           A tale of bardic misadventure leads a party into adventure alongside Timbrel and his players. It seems our tabaxi friend has gifted our heroes an extremely lucky coin — but they're not the only ones who might have use for it.
 
@@ -62,7 +62,7 @@ blocks:
         label: Play time
 
   - type: cta
-    title: Pick up Timbrel Sleet's Intrepid Players
+    content: "## Pick up Timbrel Sleet's Intrepid Players"
     button:
       text: Buy on DM's Guild
       href: https://www.dmsguild.com/product/387244/Timbrel-Sleets-Intrepid-Players

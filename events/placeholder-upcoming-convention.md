@@ -1,5 +1,5 @@
 ---
-title: PLACEHOLDER TEXT — Upcoming Convention
+name: PLACEHOLDER TEXT — Upcoming Convention
 subtitle: PLACEHOLDER TEXT
 event_location: PLACEHOLDER TEXT
 event_date: 2026-12-01

@@ -1,5 +1,5 @@
 ---
-title: Psychic Night School
+name: Psychic Night School
 subtitle: Make your own tarot cards! A game about being, or pretending to be, psychic
 order: 6
 meta_title: "Psychic Night School | A drawing, divining, creative, GM-less TTRPG about psychics"
@@ -10,7 +10,7 @@ redirect_from:
   - /psychic-night-school/
 blocks:
   - type: hero
-    title: Psychic Night School
+    name: Psychic Night School
     badge: GM-less TTRPG
     lead: >-
       Psychic Night School is a GM-less roleplaying and drawing game for fans
@@ -28,8 +28,9 @@ blocks:
         size: lg
 
   - type: split-image
-    title: "\"Did you ever feel like you could read someone's mind?\""
     content: |
+      ## "Did you ever feel like you could read someone's mind?"
+
       You're a budding psychic and have decided to take a night school class
       called "Introduction to the Spirit Realm with Mademoiselle
       Charlotte-Ann". In this class you'll meet and get to know your fellow
@@ -42,7 +43,7 @@ blocks:
 
   - type: callout
     variant: info
-    title: Suitable for
+    name: Suitable for
     content: 3–6 players aged 12 and up. Younger children can play with a little guidance. Larger groups with a little patience.
 
   - type: stats
@@ -54,13 +55,15 @@ blocks:
 
   - type: iframe-embed
     src: https://itch.io/embed/1110316?link_color=f7c877
-    title: Psychic Night School on Itch.io
+    name: Psychic Night School on Itch.io
     height: 167
     max_width: 552px
 
   - type: cta
-    title: Enrol in Psychic Night School
-    description: Available in print and digital from Itch.io and DrivethruRPG.
+    content: |-
+      ## Enrol in Psychic Night School
+
+      Available in print and digital from Itch.io and DrivethruRPG.
     button:
       text: Buy on Itch.io
       href: https://buttonkin.itch.io/psychic-night-school

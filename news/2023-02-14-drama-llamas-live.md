@@ -1,5 +1,5 @@
 ---
-title: Drama Llamas is Live!
+name: Drama Llamas is Live!
 subtitle: Llamas assemble!
 metaTitle: "Drama Llamas Kickstarter Launch with ZineQuest 5 Project We Love"
 tags:

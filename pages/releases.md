@@ -1,4 +1,5 @@
 ---
+name: Releases
 permalink: /releases/
 layout: design-system-base.html
 meta_title: "Releases | Button Kin Games"
