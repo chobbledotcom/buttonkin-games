@@ -34,15 +34,4 @@ blocks:
         caption: Introduction page from Jude's World
       - image: src/images/layout-examples/judes_world_layout_preview_2.png
         caption: Character inspiration page from Jude's World
-
-  - type: cta
-    content: |-
-      ## Get a quote for your layout
-
-      Tell me about your project
-    button:
-      text: Contact Yvris
-      href: /contact/
-      variant: secondary
-      size: lg
 ---
