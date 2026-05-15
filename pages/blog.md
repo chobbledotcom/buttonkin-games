@@ -47,5 +47,6 @@ blocks:
       grab the [RSS feed](/feed.xml).
 
   - type: items
+    masonry: true
     collection: news
 ---

@@ -13,10 +13,8 @@ blocks:
     figure_alt: Button Kin Games logo
     dark: true
 
-  - type: snippet
-    reference: recent-blog-posts
-
   - type: contact-form
+    dark: true
     intro_content: |-
       ## Contact Button Kin
 
@@ -25,8 +23,6 @@ blocks:
       Get in touch about our games, upcoming events, writing commissions, or layout services.
 
       Email: [info@buttonkin.com](mailto:info@buttonkin.com)
-
-  - type: snippet
-    reference: socials
 ---
+
 **Button Kin Games** — a one-woman indie TTRPG studio from Yvris Burke, based in Manchester, UK.

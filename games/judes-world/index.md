@@ -14,30 +14,30 @@ eleventyNavigation:
 redirect_from:
   - /judes-world/
 blocks:
-  - type: hero
-    name: Jude's World
-    badge: Latest Release
-    lead: >-
+  - type: split-image
+    content: |
+      # Jude's World
+
       Take on the role of 12-year-old Jude, who's desperate to grow up and
       certain that they'll do a better job of it than the so-called "adults"
       in their life. Our protagonist just found out their parents, Mika and
       Jamie, are getting a dreaded divorce — and they are NOT inclined to take
       it lightly.
-    buttons:
-      - text: Buy on Itch.io
-        href: https://buttonkin.itch.io/judes-world
-        variant: primary
-        size: lg
+    button:
+      text: Buy on Itch.io
+      href: https://buttonkin.itch.io/judes-world
+      variant: primary
+    figure_src: /games/judes-world/thumb.png
+    figure_alt: Jude's World Front Cover
 
-  - type: gallery
-    aspect_ratio: "4/3"
+  - type: stats
     items:
-      - image: src/games/judes-world/layout_preview_1.png
-        caption: A page from the Jude's World zine
-      - image: src/games/judes-world/layout_preview_2.png
-        caption: A page from the Jude's World zine
-      - image: src/games/judes-world/layout_preview_3.png
-        caption: A page from the Jude's World zine
+      - value: Solo
+        label: Players
+      - value: "15+"
+        label: Age
+      - value: £10
+        label: Print Edition
 
   - type: split-image
     content: |
@@ -53,6 +53,16 @@ blocks:
     figure_src: src/games/judes-world/layout_preview_2.png
     figure_alt: A page from the Jude's World zine
 
+  - type: gallery
+    aspect_ratio: "4/3"
+    items:
+      - image: src/games/judes-world/layout_preview_1.png
+        caption: A page from the Jude's World zine
+      - image: src/games/judes-world/layout_preview_2.png
+        caption: A page from the Jude's World zine
+      - image: src/games/judes-world/layout_preview_3.png
+        caption: A page from the Jude's World zine
+
   - type: split-video
     content: |
       ## See it in play
@@ -61,20 +71,6 @@ blocks:
     figure_video_id: aagYwQLZjcY
     figure_alt: Jude's World play through by Kat the Loremistress
     reverse: true
-
-  - type: callout
-    variant: info
-    name: Suitable for
-    content: A single player aged 15 and up.
-
-  - type: stats
-    items:
-      - value: Solo
-        label: Players
-      - value: "15+"
-        label: Age
-      - value: £10
-        label: Print Edition
 
   - type: buy-options
     intro_content: |-
@@ -102,15 +98,4 @@ blocks:
     name: Jude's World on Itch.io
     height: 167
     max_width: 552px
-
-  - type: cta
-    content: |-
-      ## Pick up Jude's World
-
-      Zines, workbooks, and bundles available via Itch.io.
-    button:
-      text: Buy on Itch.io
-      href: https://buttonkin.itch.io/judes-world
-      variant: secondary
-      size: lg
 ---

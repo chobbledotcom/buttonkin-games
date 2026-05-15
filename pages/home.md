@@ -11,25 +11,6 @@ redirect_from:
   - /oh-my-stars/
   - /tags/press-kit/
 blocks:
-  # New game ad — hero banner promoting the latest release
-  - type: hero
-    class: gradient
-    badge: Out Now
-    name: "Jude's World"
-    lead: >-
-      A plucky preteen struggles to reunite their separating parents in this
-      solo, tarot-based journaling TTRPG. Take on the role of 12-year-old Jude
-      and steer them through a complicated time in their young life.
-    buttons:
-      - text: Read More
-        href: /releases/judes-world/
-        variant: primary
-        size: lg
-      - text: Buy on Itch.io
-        href: https://buttonkin.itch.io/judes-world
-        variant: secondary
-        size: lg
-
   # Intro — split image with a photo of Yvris
   - type: split-image
     content: |
@@ -48,9 +29,30 @@ blocks:
     figure_src: images/alex.jpg
     figure_alt: Yvris Burke at a TTRPG convention
 
+  # New game ad — hero banner promoting the latest release
+  - type: split-image
+    reverse: true
+    content: |
+      ## Jude's World
+
+      A plucky preteen struggles to reunite their separating parents in this
+      solo, tarot-based journaling TTRPG. Take on the role of 12-year-old Jude
+      and steer them through a complicated time in their young life.
+    button:
+      text: Read More
+      href: /releases/judes-world/
+      variant: primary
+    figure_src: /games/judes-world/thumb.png
+    figure_alt: Jude's World Front Cover
+
   # Featured releases
-  - type: snippet
-    reference: featured-games
+  - type: items
+    intro_content: |
+      ## The Buttonkin Games Catalogue
+    collection: games
+    filter:
+      property: data.featured
+      equals: "true"
 
   # Newsletter signup
   - type: snippet
