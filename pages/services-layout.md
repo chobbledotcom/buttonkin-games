@@ -3,7 +3,7 @@ name: Layout Services
 permalink: /services/layout/
 layout: design-system-base.html
 meta_title: "Layout Services | Button Kin Games"
-meta_description: PLACEHOLDER TEXT
+meta_description: Hire Yvris to lay out your project
 eleventyNavigation:
   key: Layout
   parent: Services
@@ -13,28 +13,33 @@ blocks:
     name: Layout Services
     lead: PLACEHOLDER TEXT
 
-  - type: section-header
-    intro: |-
-      ## About This Service
+  - type: markdown
+    content: |-
+      Though I'm not a professionally trained graphic designer I do love creating layout for books, from themeing, to colour palette, to font choice. I've done this for all my own works and take commissions from **£10 a page**.
 
-      PLACEHOLDER TEXT
-
-  - type: features
-    intro_content: |-
-      ## What's Included
+  - type: gallery
+    aspect_ratio: "4/3"
     items:
-      - name: PLACEHOLDER TEXT
-        description: PLACEHOLDER TEXT
-      - name: PLACEHOLDER TEXT
-        description: PLACEHOLDER TEXT
-      - name: PLACEHOLDER TEXT
-        description: PLACEHOLDER TEXT
+      - image: src/images/layout-examples/bumbling_layout_preview.png
+        caption: A spread from Bumbling
+      - image: src/images/layout-examples/caltrop_kaiju_layout_preview.png
+        caption: central spread from Caltrop Kaiju
+      - image: src/images/layout-examples/drama_llamas_layout_preview_1.png
+        caption: Session zero/CATS page from Drama Llamas
+      - image: src/images/layout-examples/drama_llamas_layout_preview_2.png
+        caption: Drama mechanic page from Drama Llamas with facing chapter illustration
+      - image: src/images/layout-examples/drama_llamas_layout_preview_3.png
+        caption: Character creation page from Drama Llamas
+      - image: src/images/layout-examples/judes_world_layout_preview.png
+        caption: Introduction page from Jude's World
+      - image: src/images/layout-examples/judes_world_layout_preview_2.png
+        caption: Character inspiration page from Jude's World
 
   - type: cta
     content: |-
-      ## Get a quote for your layout project
+      ## Get a quote for your layout
 
-      PLACEHOLDER TEXT
+      Tell me about your project
     button:
       text: Contact Yvris
       href: /contact/
