@@ -34,4 +34,7 @@ blocks:
         caption: Introduction page from Jude's World
       - image: src/images/layout-examples/judes_world_layout_preview_2.png
         caption: Character inspiration page from Jude's World
+  - type: contact-form
+    intro_content: |
+      ## Get in Touch
 ---
