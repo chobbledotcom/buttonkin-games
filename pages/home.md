@@ -4,6 +4,7 @@ permalink: /
 layout: design-system-base.html
 meta_title: "Button Kin Games | Indie TTRPG Studio | Manchester, UK"
 meta_description: "Button Kin Games is a one-woman indie TTRPG studio from Yvris Burke, home to whimsical and strange tabletop roleplaying games with unusual themes."
+header_image: src/images/brand/button_kin_header_banner.jpg
 eleventyNavigation:
   key: Home
   order: 1
