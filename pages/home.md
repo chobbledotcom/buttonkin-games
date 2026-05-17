@@ -12,11 +12,12 @@ redirect_from:
   - /oh-my-stars/
   - /tags/press-kit/
 blocks:
+  - type: hero
+    name: Button Kin Games
+    lead: A One-Woman Games Studio from Yvris Burke
   # Intro — split image with a photo of Yvris
   - type: split-image
     content: |
-      ## A One-Woman Games Studio from Yvris Burke
-
       Established in 2020 by game designer, writer, and web developer Yvris
       Burke, Button Kin Games is home to whimsical and strange TTRPGs with
       unusual themes, and a smattering of D&D 5e content.

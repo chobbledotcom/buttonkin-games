@@ -10,9 +10,9 @@ eleventyNavigation:
 blocks:
   - type: section-header
     intro: |-
-      ## Events
+      # Events
 
-      PLACEHOLDER TEXT — where you can find Button Kin next.
+      Games, conventions, and play tests
 
   - type: snippet
     reference: upcoming-events
@@ -28,14 +28,7 @@ blocks:
     collection: pastEvents
     horizontal: true
 
-  - type: cta
-    content: |-
-      ## Want to host Button Kin at your event?
-
-      PLACEHOLDER TEXT
-    button:
-      text: Get in touch
-      href: /contact/
-      variant: secondary
-      size: lg
+  - type: contact-form
+    intro_content: |
+      ## Do you want Button Kin at your event? Get in Touch
 ---

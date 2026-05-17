@@ -41,14 +41,7 @@ blocks:
       - name: Josh Wakerly, Hive Mind Games
         description: "Consistently creative and original submissions and a pleasure to work with"
 
-  - type: cta
-    content: |-
-      ## Commission a writing project
-
-      Let me know what you're working on and how I can help.
-    button:
-      text: Contact Yvris
-      href: /contact/
-      variant: secondary
-      size: lg
+  - type: contact-form
+    intro_content: |
+      ## Get in Touch
 ---

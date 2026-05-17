@@ -11,7 +11,7 @@ eleventyNavigation:
 blocks:
   - type: hero
     name: Layout Services
-    lead: PLACEHOLDER TEXT
+    lead: Hire Yvris to do graphic design
 
   - type: markdown
     content: |-
