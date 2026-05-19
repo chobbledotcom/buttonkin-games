@@ -151,11 +151,24 @@ body::before {
   background-image: url("/images/backgrounds/drama_llamas_background.png");
 }
 
+.page--releases--judes-world {
+  --color-bg: #ffddff;
+  --color-link: #008889;
+  --color-text-muted: #000000;
+  --body-background-alt: rgba(255, 0, 255, 0.75);
+
+  ol.breadcrumbs li:first-child {
+    background-color: var(--color-bg);
+    border-radius: 30px;
+    padding: 1px 6px;
+  }
+}
+
 .page--releases--judes-world::before {
-  background-image: url("/images/backgrounds/judes_world_background.png");
+  background-image: url("/images/backgrounds/judes_world_background_teal.png");
   background-repeat: repeat;
   background-size: 500px 500px;
-  opacity: 0.1;
+  opacity: 0.4;
 }
 
 .page--releases--bumbling::before {

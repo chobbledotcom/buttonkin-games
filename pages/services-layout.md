@@ -25,9 +25,9 @@ blocks:
       - image: src/images/layout-examples/caltrop_kaiju_layout_preview.png
         caption: Central spread from Caltrop Kaiju
       - image: src/images/layout-examples/caltrop_kaiju_layout_preview_2.png
-        caption:
+        caption: Caltrop Kaiju rules page
       - image: src/images/layout-examples/caltrop_kaiju_layout_preview_3.png
-        caption:
+        caption: Caltrop Kaiju rules page
       - image: src/images/layout-examples/drama_llamas_layout_preview_1.png
         caption: Session zero/CATS page from Drama Llamas
       - image: src/images/layout-examples/drama_llamas_layout_preview_2.png
