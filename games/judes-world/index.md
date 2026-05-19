@@ -50,17 +50,17 @@ blocks:
       World pays homage to and critiques "Parent Trap"-style narratives as well
       as revelling in a 90s sitcom tone inspired by the likes of _The Fresh
       Prince of Bel-Air_ and _Clarissa Explains It All_.
-    figure_src: src/games/judes-world/layout_preview_2.png
+    figure_src: src/images/layout-examples/judes_world_layout_preview.png
     figure_alt: A page from the Jude's World zine
 
   - type: gallery
     aspect_ratio: "4/3"
     items:
-      - image: src/games/judes-world/layout_preview_1.png
+      - image: src/images/layout-examples/judes_world_layout_preview.png
         caption: A page from the Jude's World zine
-      - image: src/games/judes-world/layout_preview_2.png
+      - image: src/images/layout-examples/judes_world_layout_preview_3.png
         caption: A page from the Jude's World zine
-      - image: src/games/judes-world/layout_preview_3.png
+      - image: src/images/layout-examples/judes_world_layout_preview_2.png
         caption: A page from the Jude's World zine
 
   - type: split-video
