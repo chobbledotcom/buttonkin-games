@@ -1,7 +1,7 @@
 ---
 name: MCR Geek Fayre 2026
 subtitle: A home town appearance for Yvris
-event_location: Manchester
+event_location: Sacha's Hotel, Manchester
 event_date: 2026-07-18
 thumbnail: src/images/alex.jpg
 meta_title: Button Kin Games at Manchester Geek Fayre, July 18th 2026
