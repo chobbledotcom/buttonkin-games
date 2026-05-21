@@ -8,38 +8,28 @@ thumbnail: src/images/products/caltrop_kaiju_booklet.jpeg
 header_image: src/games/caltrop-kaiju/cover.png
 redirect_from:
   - /caltrop-kaiju/
+eleventyNavigation:
+  key: Caltrop Kaiju
+  parent: Releases
+  order: 4
 blocks:
-  - type: hero
-    name: Caltrop Kaiju
-    badge: Solo TTRPG
-    lead: >-
+  - type: split-image
+    content: |
+      # Caltrop Kaiju
+
       A gigantic, rampaging kaiju has shown up in your home town and is
       destroying everything! You must head out to observe the kaiju to find its
       weakness, then pass on what you know to the military at their secret base
       so they can defeat this monster — all while trying not to get eaten.
-    buttons:
-      - text: Buy on Itch.io
-        href: https://buttonkin.itch.io/caltrop-kaiju
-        variant: primary
-        size: lg
-      - text: Buy on DrivethruRPG
-        href: https://www.drivethrurpg.com/product/395590/Caltrop-Kaiju
-        variant: secondary
-        size: lg
-
-  - type: split-image
-    content: |
-      ## Ten-minute puzzle or journaling game
 
       This is a solo TTRPG which can be played in ten minutes as a tense,
       tactical puzzle, or in a couple of hours as a journaling / story game.
-    figure_src: src/games/caltrop-kaiju/kaiju_map.png
+    button:
+      text: Buy on Itch.io
+      href: https://buttonkin.itch.io/caltrop-kaiju
+      variant: primary
+    figure_src: src/games/caltrop-kaiju/cover.png
     figure_alt: A 7 by 7 grid with icons for a nuclear power plant, a mountain, a bridge, a radio tower, a town hall, and a port
-
-  - type: callout
-    variant: info
-    name: Suitable for
-    content: A single player aged 10 and up. Younger children can play with a little guidance.
 
   - type: stats
     items:
@@ -58,7 +48,7 @@ blocks:
       - image: src/images/products/caltrop_kaiju_booklet.jpeg
         name: Caltrop Kaiju
         subtitle: Print edition
-        price: "4"
+        price: £4
         link: https://buy.stripe.com/5kQ9AT4hZ0xY4kgfOg7N60c
 
   - type: iframe-embed
@@ -66,15 +56,4 @@ blocks:
     name: Caltrop Kaiju on Itch.io
     height: 167
     max_width: 552px
-
-  - type: cta
-    content: |-
-      ## Get Caltrop Kaiju
-
-      Available in print and digital from Itch.io and DrivethruRPG.
-    button:
-      text: Buy on Itch.io
-      href: https://buttonkin.itch.io/caltrop-kaiju
-      variant: secondary
-      size: lg
 ---

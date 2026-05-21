@@ -14,40 +14,22 @@ eleventyNavigation:
 redirect_from:
   - /bumbling/
 blocks:
-  - type: hero
-    name: Bumbling
-    badge: Solo TTRPG
-    lead: >-
-      Welcome to the hive, worker-bee! You just hatched and your head is as
-      fuzzy as your body. Your siblings are beckoning for you to join them at
-      the heart of the hive — the dance floor! This world is new and strange,
-      and you don't know your own name yet, but you think you might know a bit
-      about dancing.
-    buttons:
-      - text: Buy on Itch.io
-        href: https://buttonkin.itch.io/bumbling
-        variant: primary
-        size: lg
-      - text: Buy on DrivethruRPG
-        href: https://www.drivethrurpg.com/product/350440/Bumbling-Solo-RPG
-        variant: secondary
-        size: lg
-
   - type: split-image
     content: |
-      ## About Bumbling
+      # Bumbling
+
+      Welcome to the hive, worker-bee! You just hatched and your head is as fuzzy as your body. Your siblings are beckoning for you to join them at the heart of the hive — the dance floor! This world is new and strange, and you don't know your own name yet, but you think you might know a bit about dancing.
 
       In this game you'll learn your hive's secret dance language, explore and
       map your world, make animal friends, and harvest pollen for your hive.
       This is a sweet, relaxing game to play on a rainy afternoon while
       journaling and doodling.
-    figure_src: src/games/bumbling/hexes.png
-    figure_alt: Hex-grid map example from Bumbling
-
-  - type: callout
-    variant: info
-    name: Suitable for
-    content: A single player aged 10 and up. Younger children can play with a little guidance.
+    button:
+      text: Buy on Itch.io
+      href: https://buttonkin.itch.io/bumbling
+      variant: primary
+    figure_src: /games/bumbling/hexes.png
+    figure_alt: Bumbling Front Cover
 
   - type: stats
     items:
@@ -63,7 +45,7 @@ blocks:
       ## Reviews
     items:
       - name: sinopiasaur
-        description: "\"This is a sweet and relaxing way to pass a couple hours of a summer afternoon.\""
+        description: '"This is a sweet and relaxing way to pass a couple hours of a summer afternoon."'
       - name: Wyrd Science Magazine
         description: |
           "A simple little bee RPG that thankfully doesn't make any references to that b—dy film."
@@ -84,15 +66,4 @@ blocks:
     name: Bumbling on Itch.io
     height: 167
     max_width: 552px
-
-  - type: cta
-    content: |-
-      ## Pick up Bumbling today
-
-      Available in print and digital from Itch.io and DrivethruRPG.
-    button:
-      text: Buy on Itch.io
-      href: https://buttonkin.itch.io/bumbling
-      variant: secondary
-      size: lg
 ---

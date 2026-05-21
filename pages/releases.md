@@ -21,4 +21,5 @@ blocks:
 
   - type: items
     collection: games
+    masonry: true
 ---

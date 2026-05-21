@@ -147,6 +147,10 @@ body::before {
   background: var(--color-dark-bg-alt);
 }
 
+nav ul.nav-thumbnails li {
+  font-family: var(--font-family-heading);
+}
+
 .page--releases--drama-llamas::before {
   background-image: url("/images/backgrounds/drama_llamas_background.png");
 }
@@ -195,6 +199,17 @@ body::before {
   opacity: 0.5;
 }
 
+.page--releases--bumbling {
+  --color-link: #b5007a;
+  --color-text-muted: #000000;
+
+  ol.breadcrumbs li:first-child {
+    background-color: var(--color-bg);
+    border-radius: 30px;
+    padding: 1px 6px;
+  }
+}
+
 .page--releases--bumbling::before {
   background-image: url("/images/backgrounds/bumbling_background.png");
   background-repeat: repeat;
@@ -202,9 +217,30 @@ body::before {
   opacity: 0.1;
 }
 
+.page--releases--caltrop-kaiju {
+  --color-contrast-text: #de4600;
+  --color-text: #ffffff;
+  --color-bg: #000000;
+  --color-link: #00ff08;
+  --color-text-muted: #ff5000;
+  --body-background-alt: #000000;
+  --color-card-bg: var(--color-dark-bg-alt);
+
+  ol.breadcrumbs li:first-child {
+    background-color: var(--color-bg);
+    border-radius: 30px;
+    padding: 1px 6px;
+  }
+
+  main section:nth-child(2n) {
+    background-color: rgba(8, 0, 115, 0.6);
+  }
+}
+
 .page--releases--caltrop-kaiju::before {
   background-image: url("/images/backgrounds/caltrop_kaiju_background.png");
   background-repeat: repeat-x;
   background-position: bottom center;
-  background-size: auto 60vh;
+  background-size: 100% 100%;
+  opacity: 1;
 }
