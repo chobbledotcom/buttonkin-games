@@ -14,24 +14,30 @@ eleventyNavigation:
 redirect_from:
   - /drama-llamas/
 blocks:
-  - type: hero
-    name: Drama Llamas
-    badge: Featured Release
-    lead: >-
+  - type: split-image
+    content: |
+      # Drama Llamas
+
       Welcome fellow llamas, and congratulations! You have been chosen from vast
       throngs of eager applicants to compete in the hottest new reality TV
       contest on the block. You have big dreams, the camera loves you, and
       whether your eye is on the prize, on lasting fame, or both, this show
       could be your big break. Seize this opportunity with both hooves!
-    buttons:
-      - text: Buy on Itch.io
-        href: https://buttonkin.itch.io/drama-llamas
-        variant: primary
-        size: lg
-      - text: Buy on DrivethruRPG
-        href: https://www.drivethrurpg.com/product/439682/Drama-Llamas
-        variant: secondary
-        size: lg
+    button:
+      text: Buy on Itch.io
+      href: https://buttonkin.itch.io/drama-llamas
+      variant: primary
+    figure_src: /games/drama-llamas/thumb.png
+    figure_alt: Drama Llamas Front Cover
+
+  - type: stats
+    items:
+      - value: "3–6+GM"
+        label: Players
+      - value: All ages
+        label: Suitability
+      - value: £15
+        label: Print Edition
 
   - type: split-image
     content: |
@@ -55,28 +61,14 @@ blocks:
     figure_alt: Drama Llamas TTRPG Gameplay
     reverse: true
 
-  - type: callout
-    variant: info
-    name: Suitable for
-    content: 3–6 players of all ages and a GM.
-
-  - type: stats
-    items:
-      - value: "3–6+GM"
-        label: Players
-      - value: All ages
-        label: Suitability
-      - value: £15
-        label: Print Edition
-
   - type: features
     intro_content: |-
       ## Reviews
     items:
       - name: Panne
-        description: "\"This was such a bonkers-fun game! It's all about going full ridiculous and playing the shadow game behind the scenes. But the game itself encourages communication between the players so that it's reframed as collaboratively creating drama rather than a PVP type game.\""
+        description: '"This was such a bonkers-fun game! It''s all about going full ridiculous and playing the shadow game behind the scenes. But the game itself encourages communication between the players so that it''s reframed as collaboratively creating drama rather than a PVP type game."'
       - name: Catalyze
-        description: "\"When I played Drama Llamas with my buddies I got the giggles so bad that I couldn't talk. It's really easy to play and leaves a lot of room for improvisation and silliness, although there's a clear structure to gee things along too. Some of the artwork is BEAU-TI-FUL! A++ would recommend!\""
+        description: '"When I played Drama Llamas with my buddies I got the giggles so bad that I couldn''t talk. It''s really easy to play and leaves a lot of room for improvisation and silliness, although there''s a clear structure to gee things along too. Some of the artwork is BEAU-TI-FUL! A++ would recommend!"'
 
   - type: buy-options
     intro_content: |-
@@ -107,21 +99,4 @@ blocks:
         label: Character Sheet
       - file: /assets/files/drama_llamas_cheat_sheet.pdf
         label: Quick Start / Cheat Sheet
-
-  - type: iframe-embed
-    src: https://itch.io/embed/2094843?link_color=3e0b5d&border_color=ffffff
-    name: Drama Llamas on Itch.io
-    height: 167
-    max_width: 552px
-
-  - type: cta
-    content: |-
-      ## Buy Drama Llamas
-
-      Available in print and digital from Itch.io and DrivethruRPG.
-    button:
-      text: Buy on Itch.io
-      href: https://buttonkin.itch.io/drama-llamas
-      variant: secondary
-      size: lg
 ---

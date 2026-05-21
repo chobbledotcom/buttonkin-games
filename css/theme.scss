@@ -171,6 +171,30 @@ body::before {
   opacity: 0.4;
 }
 
+.page--releases--drama-llamas {
+  --color-bg: #f892d7;
+  --color-link: #ac07ba;
+  --color-text-muted: #000000;
+  --body-background-alt: #f892d7;
+
+  ol.breadcrumbs li:first-child {
+    background-color: var(--color-bg);
+    border-radius: 30px;
+    padding: 1px 6px;
+  }
+
+  main section:nth-child(2n) {
+    background-color: rgba(248, 146, 215, 0.6);
+  }
+}
+
+.page--releases--drama-llamas::before {
+  background-image: url("/images/backgrounds/drama_llamas_background.png");
+  background-repeat: repeat;
+  background-size: unset;
+  opacity: 0.5;
+}
+
 .page--releases--bumbling::before {
   background-image: url("/images/backgrounds/bumbling_background.png");
   background-repeat: repeat;
