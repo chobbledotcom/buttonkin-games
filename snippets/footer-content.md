@@ -15,3 +15,5 @@ blocks:
 ---
 
 **Button Kin Games** — a one-woman indie TTRPG studio from Yvris Burke, based in Manchester, UK.
+
+[Built with the Chobble Template](https://github.com/chobbledotcom/chobble-template)
