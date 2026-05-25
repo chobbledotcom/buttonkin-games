@@ -19,10 +19,7 @@ blocks:
         url: "https://buttonkin.itch.io/"
       - icon: "hugeicons:global"
         text: Bluesky
-        url: "https://bsky.app/profile/yvris.bsky.social"
-      - icon: "hugeicons:note-edit"
-        text: Medium
-        url: "https://medium.com/@button_kin_games"
+        url: "https://bsky.app/profile/buttonkin.bsky.social"
       - icon: "hugeicons:tag-01"
         text: Tumblr
         url: "https://tumblr.com/button-kin-games"
