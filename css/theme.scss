@@ -244,3 +244,32 @@ nav ul.nav-thumbnails li {
   background-size: 100% 100%;
   opacity: 1;
 }
+
+.page--releases--the-custom-of-the-sea {
+  --color-contrast-text: #002d3b;
+  --color-text: #ffffff;
+  --color-bg: #004052;
+  --color-link: #fab75c;
+  --color-text-muted: #ffffff;
+  --body-background: #543000;
+  --body-background-alt: #004052;
+  --color-card-bg: var(--color-dark-bg-alt);
+
+  ol.breadcrumbs li:first-child {
+    background-color: var(--color-bg);
+    border-radius: 30px;
+    padding: 1px 6px;
+  }
+
+  main section:nth-child(2n) {
+    background-color: rgba(0, 64, 82, 0.6);
+  }
+}
+
+.page--releases--the-custom-of-the-sea::before {
+  background-image: url("/images/backgrounds/cots_background.jpg");
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  background-size: 100% auto;
+  opacity: 0.4;
+}

@@ -10,7 +10,7 @@ header_image: src/games/judes-world/cover.png
 eleventyNavigation:
   key: Jude's World
   parent: Releases
-  order: 1
+  order: 5
 redirect_from:
   - /judes-world/
 blocks:

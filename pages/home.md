@@ -35,17 +35,15 @@ blocks:
   - type: split-image
     reverse: true
     content: |
-      ## Jude's World
+      ## The Custom of the Sea
 
-      A plucky preteen struggles to reunite their separating parents in this
-      solo, tarot-based journaling TTRPG. Take on the role of 12-year-old Jude
-      and steer them through a complicated time in their young life.
+      The Custom of the Sea is Yvris' in-development Regency horror TTRPG. You'll play as a castaway, one of several from all levels of society shipwrecked and stranded with His Royal Highness the Prince Regent. You find yourselves on a mysterious island governed by a malevolent intelligence which wants to corrupt or destroy you. Will you hold strong to propriety or indulge your animal instincts to survive?
     button:
-      text: Read More
-      href: /releases/judes-world/
+      text: Join a Play Test
+      href: https://tickets.buttonkin.com/events
       variant: primary
-    figure_src: /games/judes-world/thumb.png
-    figure_alt: Jude's World Front Cover
+    figure_src: /games/the-custom-of-the-sea/thumb.jpg
+    figure_alt: The Custom of the Sea title image, white text on a blue and brown background showing an oil painting of ships in a storm
 
   # Featured releases
   - type: items
