@@ -58,7 +58,7 @@ blocks:
       - image: src/images/products/righteous_jaunt_booklet.jpeg
         name: Righteous Jaunt
         subtitle: Print edition
-        price: "4"
+        price: "£4"
         link: https://buy.stripe.com/28EbJ13dVa8ydUQatW7N60a
 
   - type: iframe-embed

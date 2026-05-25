@@ -52,7 +52,7 @@ blocks:
       - image: src/images/products/drama_llamas_llama_warrior.jpeg
         name: Llama Warrior
         subtitle: Postcard one-shot
-        price: "3"
+        price: "£3"
         link: https://buy.stripe.com/28E4gz29R1C2cQMfOg7N608
 
   - type: iframe-embed

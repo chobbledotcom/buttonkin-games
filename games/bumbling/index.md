@@ -58,7 +58,7 @@ blocks:
       - image: src/images/products/bumbling_booklet.jpeg
         name: Bumbling
         subtitle: Print edition
-        price: "4"
+        price: "£4"
         link: https://buy.stripe.com/fZueVd01J4Oe2c859C7N601
 
   - type: iframe-embed

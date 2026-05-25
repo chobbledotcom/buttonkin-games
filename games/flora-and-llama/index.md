@@ -52,7 +52,7 @@ blocks:
       - image: src/images/products/drama_llamas_flora_and_llamas.jpeg
         name: Flora and Llama
         subtitle: Postcard one-shot
-        price: "3"
+        price: "£3"
         link: https://buy.stripe.com/cNieVdaGn80q040eKc7N607
 
   - type: iframe-embed

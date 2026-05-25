@@ -80,17 +80,17 @@ blocks:
       - image: src/images/products/judes_world_zine.jpeg
         name: Jude's World
         subtitle: Zine
-        price: "10"
+        price: "£10"
         link: https://buy.stripe.com/cNi00j6q74OecQM0Tm7N602
       - image: src/images/products/judes_world_workbook.jpeg
         name: Jude's World Workbook
         subtitle: Companion workbook
-        price: "5"
+        price: "£5"
         link: https://buy.stripe.com/bJe3cvbKra8y4kg6dG7N603
       - image: src/images/products/judes_world_bundle.jpeg
         name: Jude's World Bundle
         subtitle: Zine + workbook
-        price: "13"
+        price: "£13"
         link: https://buy.stripe.com/fZuaEX15N6WmeYU8lO7N604
 
   - type: iframe-embed

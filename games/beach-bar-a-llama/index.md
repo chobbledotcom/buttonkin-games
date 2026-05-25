@@ -53,7 +53,7 @@ blocks:
       - image: src/images/products/drama_llamas_beach_bar_a_llama.jpeg
         name: Beach Bar-a-Llama
         subtitle: Postcard one-shot
-        price: "3"
+        price: "£3"
         link: https://buy.stripe.com/14AdR9eWDbcCeYUby07N606
 
   - type: iframe-embed

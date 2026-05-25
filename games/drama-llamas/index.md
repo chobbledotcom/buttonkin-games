@@ -78,17 +78,17 @@ blocks:
       - image: src/images/products/drama_llamas.jpeg
         name: Drama Llamas
         subtitle: Main rulebook
-        price: "15"
+        price: "£15"
         link: https://buy.stripe.com/5kQ14n15NbcCdUQby07N600
       - image: src/images/products/drama_llamas_postcard_bundle.jpeg
         name: Drama Llamas + 3 one-shots
         subtitle: Bundle
-        price: "20"
+        price: "£20"
         link: https://buy.stripe.com/28E9ATcOv94u5okcC47N60d
       - image: src/images/products/drama_llamas_postcard_bundle.jpeg
         name: Drama Llamas one-shot bundle
         subtitle: Three postcard one-shots
-        price: "10"
+        price: "£10"
         link: https://buy.stripe.com/9B64gz9CjbcCdUQby07N605
 
   - type: downloads
