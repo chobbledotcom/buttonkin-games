@@ -10,7 +10,7 @@ blocks:
         url: "mailto:info@buttonkin.com"
       - icon: "hugeicons:book-02"
         text: Newsletter
-        url: "https://buttondown.email/button_kin_games"
+        url: "https://buttondown.com/button_kin_games"
       - icon: "hugeicons:rss"
         text: RSS Feed
         url: "/feed.xml"

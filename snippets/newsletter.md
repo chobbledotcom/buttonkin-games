@@ -9,7 +9,7 @@ blocks:
       Button Kin Times — Yvris's monthly newsletter — for release
       announcements, behind-the-scenes game design notes, and first dibs on
       upcoming events.
-    src: https://buttondown.email/button_kin_games?as_embed=true
+    src: https://buttondown.com/button_kin_games?as_embed=true
     name: Subscribe to Button Kin Games newsletter
     height: 150
     max_width: 560px
