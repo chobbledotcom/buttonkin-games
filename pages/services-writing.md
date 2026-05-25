@@ -13,6 +13,17 @@ blocks:
     name: Writing Services
     lead: Hire Yvris to write for your project
 
+  - type: features
+    intro_content: |-
+      ## Testimonials
+    items:
+      - name: George Bickers, Three Sails Studio
+        description: Yvris's storytelling is deft and bold in equal measure. With a deep understanding of the interactions between character, motivation, and setting, she never loses sight of either the player or the GM when crafting her adventures, leaving an intriguing trail of breadcrumbs that always lead to an explosive conclusion.
+      - name: Stoo Goff, we evolve
+        description: Yvris did a fantastic job writing a setting guide for the Isle of Pelops. She wrote an excellent piece with a tonne of research, plenty of hooks to engage the GM, and new stuff for the PCs to do. She even provided a map of the city! Total pleasure to work with and incredibly enthusiastic, will be hiring again as soon as I have something available.
+      - name: Josh Wakerly, Hive Mind Games
+        description: "Consistently creative and original submissions and a pleasure to work with"
+
   - type: markdown
     content: |-
       ## Credits
@@ -29,17 +40,6 @@ blocks:
 
       - **[Beside the Lesser Travelled Road](https://www.kickstarter.com/projects/hivemindgames/beside-the-lesser-travelled-road/)**  
         Not out yet, but I contributed a creepy campsite to this collection. I got to flex some eldritch horror muscles that are now seeing more use in my own work.
-
-  - type: features
-    intro_content: |-
-      ## Testimonials
-    items:
-      - name: George Bickers, Three Sails Studio
-        description: Yvris's storytelling is deft and bold in equal measure. With a deep understanding of the interactions between character, motivation, and setting, she never loses sight of either the player or the GM when crafting her adventures, leaving an intriguing trail of breadcrumbs that always lead to an explosive conclusion.
-      - name: Stoo Goff, we evolve
-        description: Yvris did a fantastic job writing a setting guide for the Isle of Pelops. She wrote an excellent piece with a tonne of research, plenty of hooks to engage the GM, and new stuff for the PCs to do. She even provided a map of the city! Total pleasure to work with and incredibly enthusiastic, will be hiring again as soon as I have something available.
-      - name: Josh Wakerly, Hive Mind Games
-        description: "Consistently creative and original submissions and a pleasure to work with"
 
   - type: contact-form
     intro_content: |

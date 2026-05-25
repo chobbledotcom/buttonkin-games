@@ -12,16 +12,16 @@ blocks:
     intro: |-
       ## Services
 
-      PLACEHOLDER TEXT
+      Hire Yvris for your projects
 
   - type: features
     items:
       - icon: "hugeicons:image-02"
-        name: Layout
-        description: PLACEHOLDER TEXT
+        name: <a href="/services/layout">Layout</a>
+        description: Hire Yvris to do graphic design
       - icon: "hugeicons:note-edit"
-        name: Writing
-        description: PLACEHOLDER TEXT
+        name: <a href="/services/writing">Writing</a>
+        description: Hire Yvris to write something
 
   - type: link-button
     text: Get in touch
