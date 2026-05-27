@@ -1,6 +1,6 @@
 ---
 name: Which one July?
-subtitle: Odd Jobs Review, Drama Llamas, and a Public Transport Freebie
+subtitle: Drama Llamas and a Public Transport Freebie
 metaTitle: "Drama Llamas Playtesting, Odd Jobs TTRPG Review, and Convention Prep"
 tags:
   - drama-llamas
@@ -36,7 +36,7 @@ thumbnail: src/images/newsletter/bumbling_caltrop_kaihu_newsletter_preview.png
    Continuing my summer reading list of TTRPGs I picked up at UKGE, I recently read through <i>Odd Jobs</i> by Sasha Sienna and Jonathan Sims, available from <a href="https://www.macguffinandcompany.com/products/odd-jobs" target="_blank">MacGuffin & Co</a>. This was a very popular purchase at the expo and in fact was nominated for an <a href="https://ennie-awards.com/" target="_blank">ENNIE</a> while I was making my way through it. Congrats, folks!
 </p><p>
    First thing to note is that this is a lot of content. Eleven mini settings, each with their own locations, NPCs, short campaign guide and bonus content. It's an impressive accomplishment, and all written in a bright, approachable style. The settings are system-neutral/adaptable and span such a broad range of genres that there's almost certainly something here that's a strong thematic match for your preferred system. The mood of each world is distinct, moving from monochrome to technicolor, from comedy festive caper to poignant musings on the nature of personhood, all set off by the unique art styles for each setting. Despite this variety the strength of the work and attention to detail feels consistent throughout. Tropes abound and are subverted in fun ways.
-<<p>
+</p><p>
     There's little point in me offering reviews unless I'm honest when I do have a critique, though, and I did find it hard to read much of this in a single sitting. I was initially confused as to why. The writing style is friendly and witty, the layout is crisp, the art is lovely. But is a lot of prose, and a frustrating amount of it feels like explanation where none is needed. For instance, if "forensic scientist" is offered as a character option in a noir/detective setting, I don't need a long paragraph explaining what one of those is. I'm not sure why the authors have been so sparing with devices other than prose. One exception is a d100 table of bizarre Christmas presents, which I loved. More of this sort of thing would've been welcome, breaking up blocks of text with rolling tables, bullet points, or even cartography. Also, while I'm sure many GMs will appreciate having so much heavy lifting done for them in terms of world building details, for me a lighter touch leaves more room for inspiration to strike, and made the key ideas shine brighter.
 </p>
 <p>

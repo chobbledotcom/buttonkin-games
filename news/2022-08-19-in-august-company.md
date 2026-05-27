@@ -1,6 +1,6 @@
 ---
 name: In August Company
-subtitle: Convention news, Into the Odd review, and a free dragon lair!
+subtitle: Convention news and a free dragon lair!
 metaTitle: "Free D&D Dragon Lair Adventure with Map and Into the Odd Review"
 tags:
   - conventions
