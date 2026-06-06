@@ -6,7 +6,7 @@ blocks: false
 <section class="compact">
   <div class="container-wide">
     <div class="section-header prose">
-      <h1>{{ title | escape }}</h1>
+      <h1>{{ name | escape }}</h1>
       {%- if subtitle and subtitle != "" -%}
         <p class="text-muted">{{ subtitle | escape }}</p>
       {%- endif -%}
