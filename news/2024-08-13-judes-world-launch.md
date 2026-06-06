@@ -1,7 +1,7 @@
 ---
 name: Jude's World campaign is LIVE!
 subtitle: Don't. Panic.
-metaTitle: "Jude's World Solo Journaling Game Launches on Kickstarter"
+meta_title: "Jude's World Solo Journaling Game Launches on Kickstarter"
 tags:
   - judes-world
 thumbnail: src/images/newsletter/judes_world_ks.png

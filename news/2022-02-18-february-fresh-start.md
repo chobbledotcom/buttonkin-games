@@ -1,7 +1,7 @@
 ---
 name: February Fresh Start
 subtitle: Bard-themed releases for D&D, new website, and some free "card" games!
-metaTitle: "D&D 5e Bard Adventures & Free Dice Card Games"
+meta_title: "D&D 5e Bard Adventures & Free Dice Card Games"
 tags:
   - bardic-origins
 ---

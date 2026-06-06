@@ -1,7 +1,7 @@
 ---
 name: Windswept September
 subtitle: Tabletop Scotland Review, Maps Freebie, plus Streaming News
-metaTitle: "Tabletop Scotland Review and Drama Llamas TTRPG Updates"
+meta_title: "Tabletop Scotland Review and Drama Llamas TTRPG Updates"
 tags:
   - conventions
   - drama-llamas

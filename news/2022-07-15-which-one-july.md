@@ -1,7 +1,7 @@
 ---
 name: Which one July?
 subtitle: Drama Llamas and a Public Transport Freebie
-metaTitle: "Drama Llamas Playtesting, Odd Jobs TTRPG Review, and Convention Prep"
+meta_title: "Drama Llamas Playtesting, Odd Jobs TTRPG Review, and Convention Prep"
 tags:
   - drama-llamas
   - bumbling
