@@ -1,7 +1,6 @@
 ---
 name: Playthroughs
 permalink: /media/playthroughs/
-layout: design-system-base.html
 meta_title: "Playthroughs | Button Kin Games"
 meta_description: PLACEHOLDER TEXT
 eleventyNavigation:
@@ -10,8 +9,10 @@ eleventyNavigation:
   order: 2
 blocks:
   - type: hero
-    name: Playthroughs
-    lead: PLACEHOLDER TEXT
+    content: |
+      # Playthroughs
+
+      PLACEHOLDER TEXT
 
   - type: section-header
     intro: |-

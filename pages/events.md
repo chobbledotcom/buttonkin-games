@@ -1,7 +1,6 @@
 ---
 name: Events
 permalink: /events/
-layout: design-system-base.html
 meta_title: "Events | Button Kin Games"
 meta_description: Upcoming conventions, online games, and community events featuring Button Kin Games.
 eleventyNavigation:

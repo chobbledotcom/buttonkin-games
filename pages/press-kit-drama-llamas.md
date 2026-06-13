@@ -1,14 +1,14 @@
 ---
 name: Drama Llamas Press Kit
 permalink: /press-kits/drama-llamas/
-layout: design-system-base.html
 meta_title: "Drama Llamas Press Kit | Button Kin Games"
 meta_description: Press kit for Drama Llamas — a chaotic TTRPG about reality TV and fame-hungry llamas. Logos, screenshots, and press contacts.
 redirect_from:
   - /drama-llamas-press-kit/
 blocks:
   - type: hero
-    name: Drama Llamas Press Kit
+    content: |
+      # Drama Llamas Press Kit
     buttons:
       - text: Back to Press
         href: /media/press/

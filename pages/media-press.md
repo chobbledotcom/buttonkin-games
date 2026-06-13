@@ -1,7 +1,6 @@
 ---
 name: Press
 permalink: /media/press/
-layout: design-system-base.html
 meta_title: "Press | Button Kin Games"
 meta_description: Press kits, interviews, and reviews of Button Kin Games.
 eleventyNavigation:
@@ -10,8 +9,10 @@ eleventyNavigation:
   order: 3
 blocks:
   - type: hero
-    name: Press
-    lead: Press kits, reviews, and interviews about Button Kin Games.
+    content: |
+      # Press
+
+      Press kits, reviews, and interviews about Button Kin Games.
 
   - type: icon-links
     intro_content: |

@@ -1,14 +1,15 @@
 ---
 name: Custom of the Sea
 permalink: /custom-of-the-sea/
-layout: design-system-base.html
 meta_title: "Custom of the Sea | Button Kin Games"
 meta_description: Sign up for news about Custom of the Sea, an upcoming regency folk horror game from Button Kin Games.
 blocks:
   - type: hero
-    name: Custom of the Sea
     badge: Coming Soon
-    lead: Regency folk horror
+    content: |
+      # Custom of the Sea
+
+      Regency folk horror
 
   - type: section-header
     intro: |

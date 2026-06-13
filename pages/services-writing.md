@@ -1,7 +1,6 @@
 ---
 name: Writing Services
 permalink: /services/writing/
-layout: design-system-base.html
 meta_title: "Writing Services | Button Kin Games"
 meta_description: "Hire Yvris Burke as a freelance writer from 12 pence per word"
 eleventyNavigation:
@@ -10,8 +9,10 @@ eleventyNavigation:
   order: 2
 blocks:
   - type: hero
-    name: Writing Services
-    lead: Hire Yvris to write for your project
+    content: |
+      # Writing Services
+
+      Hire Yvris to write for your project
 
   - type: features
     intro_content: |-

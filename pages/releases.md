@@ -1,7 +1,6 @@
 ---
 name: Releases
 permalink: /releases/
-layout: design-system-base.html
 meta_title: "Releases | Button Kin Games"
 meta_description: Browse Button Kin's catalogue of indie TTRPGs — from solo journaling games to chaotic reality-TV roleplay.
 eleventyNavigation:

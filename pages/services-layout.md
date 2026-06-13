@@ -1,7 +1,6 @@
 ---
 name: Layout Services
 permalink: /services/layout/
-layout: design-system-base.html
 meta_title: "Layout Services | Button Kin Games"
 meta_description: Hire Yvris to lay out your project
 eleventyNavigation:
@@ -10,8 +9,10 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: hero
-    name: Layout Services
-    lead: Hire Yvris to do graphic design
+    content: |
+      # Layout Services
+
+      Hire Yvris to do graphic design
 
   - type: markdown
     content: |-

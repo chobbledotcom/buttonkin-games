@@ -71,6 +71,11 @@ $font-size-base: 1.2rem;
   --color-accent: #b35b72; // mid pink (was the old "shop" button)
   --color-hover-bg: rgba(146, 58, 82, 0.08);
 
+  // Link underline styling
+  --link-decoration: none;
+  --link-decoration-hover: underline;
+  --link-decoration-style: solid;
+
   --color-contrast-text: #ffffff;
   --color-contrast-text-muted: rgba(255, 255, 255, 0.85);
 

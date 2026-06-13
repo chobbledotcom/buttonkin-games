@@ -10,9 +10,10 @@ redirect_from:
   - /beach-bar-a-llama/
 blocks:
   - type: hero
-    name: Beach Bar-a-Llama
     badge: Drama Llamas one-shot
-    lead: >-
+    content: |
+      # Beach Bar-a-Llama
+
       In Beach Bar-a-Llamas our cutthroat camelid contestants compete to build
       the hottest beach bar on a newly discovered island in the
       Medita-llam-ian. The winner gets to keep their business and run it

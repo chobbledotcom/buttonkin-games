@@ -12,9 +12,10 @@ redirect_from:
   - /a-fey-mystery-of-glen-dourn/
 blocks:
   - type: hero
-    name: A Fey Mystery of Glen Dourn
     badge: D&D 5e Adventure
-    lead: >-
+    content: |
+      # A Fey Mystery of Glen Dourn
+
       A haunted house, a missing person, a hint of wild fey magic, and an
       unexpected love story.
     buttons:

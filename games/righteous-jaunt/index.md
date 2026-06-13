@@ -9,9 +9,10 @@ redirect_from:
   - /righteous-jaunt/
 blocks:
   - type: hero
-    name: Righteous Jaunt
     badge: Walking RPG
-    lead: >-
+    content: |
+      # Righteous Jaunt
+
       The forces of darkness are rallying, preparing to end all hope. You know
       where, and you know you have to stop them. What you don't have is the
       ability to drive or money for the bus — so you'd better start walking.

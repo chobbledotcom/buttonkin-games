@@ -1,7 +1,6 @@
 ---
 name: Services
 permalink: /services/
-layout: design-system-base.html
 meta_title: "Services | Button Kin Games"
 meta_description: "Layout and writing services from Yvris Burke of Button Kin Games."
 eleventyNavigation:

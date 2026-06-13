@@ -11,9 +11,10 @@ redirect_from:
   - /the-tillvayle-committee/
 blocks:
   - type: hero
-    name: The Tillvayle Committee
     badge: D&D 5e Adventure
-    lead: >-
+    content: |
+      # The Tillvayle Committee
+
       What if the monsters got old enough to retire? Where would they go to
       rest their weary bones? The picturesque, rural village of Tillvayle
       might do.

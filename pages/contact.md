@@ -1,7 +1,6 @@
 ---
 name: Contact
 permalink: /contact/
-layout: design-system-base.html
 meta_title: "Contact Button Kin Games"
 meta_description: Get in touch with Yvris Burke at Button Kin Games about games, events, writing commissions, or layout services.
 eleventyNavigation:
@@ -9,8 +8,9 @@ eleventyNavigation:
   order: 8
 blocks:
   - type: hero
-    name: Contact
-    lead: >-
+    content: |
+      # Contact
+
       Drop us a line about games, events, playtests, writing commissions, or
       layout services.
 

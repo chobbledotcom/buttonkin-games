@@ -10,9 +10,10 @@ redirect_from:
   - /llama-warrior/
 blocks:
   - type: hero
-    name: Llama Warrior
     badge: Drama Llamas one-shot
-    lead: >-
+    content: |
+      # Llama Warrior
+
       In Llama Warrior our cutthroat camelid contestants compete in a series
       of fiendishly difficult physical challenges opposed by the mighty
       Llamanators. The victor will be crowned the Ultimate Llama Warrior.

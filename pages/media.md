@@ -1,7 +1,6 @@
 ---
 name: Media
 permalink: /media/
-layout: design-system-base.html
 meta_title: "Media | Button Kin Games"
 meta_description: Streams, playthroughs, and press coverage of Button Kin Games.
 # eleventyNavigation:

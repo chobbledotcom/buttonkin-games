@@ -1,7 +1,6 @@
 ---
 name: Blog
 permalink: /blog/
-layout: design-system-base.html
 header_text: Blog
 meta_title: "Button Kin Times | Blog & Newsletter Archive"
 meta_description: All past issues of the Button Kin Times newsletter — release updates, development diaries, convention reports, and more.

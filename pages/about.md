@@ -1,7 +1,6 @@
 ---
 name: About Button Kin Games
 permalink: /about/
-layout: design-system-base.html
 meta_title: "About Button Kin Games"
 meta_description: Button Kin Games is a small independent TTRPG studio based in Manchester, UK, home to the work of Yvris Burke.
 eleventyNavigation:
@@ -9,8 +8,10 @@ eleventyNavigation:
   order: 6
 blocks:
   - type: hero
-    name: About Button Kin Games
-    lead: A small games studio based in Manchester, UK.
+    content: |
+      # About Button Kin Games
+
+      A small games studio based in Manchester, UK.
 
   - type: split-image
     content: |

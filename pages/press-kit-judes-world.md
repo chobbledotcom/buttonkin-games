@@ -1,14 +1,14 @@
 ---
 name: Jude's World Press Kit
 permalink: /press-kits/judes-world/
-layout: design-system-base.html
 meta_title: "Jude's World Press Kit | Button Kin Games"
 meta_description: "Press kit for Jude's World — a solo, tarot-based journaling TTRPG. Logos, art, flyers, and press contacts."
 redirect_from:
   - /judes-world-press-kit/
 blocks:
   - type: hero
-    name: Jude's World Press Kit
+    content: |
+      # Jude's World Press Kit
     buttons:
       - text: Back to Press
         href: /media/press/

@@ -10,9 +10,10 @@ redirect_from:
   - /flora-and-llama/
 blocks:
   - type: hero
-    name: Flora and Llama
     badge: Drama Llamas one-shot
-    lead: >-
+    content: |
+      # Flora and Llama
+
       In Flora and Llama our cutthroat camelid contestants compete in a series
       of elaborate flower-arranging challenges hoping to win a lifetime supply
       of bulbs and the coveted flower crown.

@@ -22,6 +22,7 @@ const rootExcludes = [
 	".direnv",
 	"*.nix",
 	"README.md",
+	"CLAUDE.md",
 	buildDir,
 	"scripts",
 	"node_modules",
