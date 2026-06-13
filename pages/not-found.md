@@ -4,7 +4,6 @@ header_text: Not Found
 meta_description:
 meta_title: Not Found
 no_index: true
-
 permalink: /not_found.html
 blocks:
   - type: markdown
